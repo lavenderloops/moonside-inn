@@ -1,0 +1,15 @@
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    padding: 10px;
+    margin-top: 36px;
+}
+
+.gallery > div {
+
+}
+
+img {
+    width: 100%;
+}

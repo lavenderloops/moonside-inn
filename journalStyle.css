@@ -39,14 +39,15 @@ a:hover {
     font-family: fantasquesans;
     font-size: 18px;
     text-align: left;
-    padding: 12px;
+    padding: 12px 12px 0px 12px;
     letter-spacing: 8px;
 }
+
 .main {
     display: flex;
     flex-direction: column;
     padding: 8px;
-    
+}
 
 .content {
     flex: 1; 
@@ -63,5 +64,4 @@ a:hover {
     color: rgb(0, 0, 39);
     font-size: 14px;
     line-height: 15px;
-
 }
