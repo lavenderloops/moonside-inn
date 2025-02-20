@@ -1,0 +1,102 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   body {
+    background-image: url(Circles.png);
+    background-repeat: repeat-x;
+    padding: 12px;
+    font-family: Fira Code;
+    margin: auto;
+  }
+  
+  p {
+    background: white;
+  }
+  
+  h1 { 
+    font-family: Michroma;
+   color: black;
+   text-align: center;
+  }
+  
+  .hero {
+    border: 2px; 
+    border-color: #4f6296;
+    border-style: dotted;
+    background-color: #96acbe;
+    text-align: center;  
+  }
+  
+  .construction {
+    background-image: url(stripes.jpg);
+    padding: 12px;
+    border: 8px;
+    margin-top: 24px;
+    border-color: red;
+    color: black;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .container > div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+   
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .menu-container {
+    position: absolute;
+    left: 24px;
+    margin: 24;
+    width: 250px;
+    background-color: white;
+    border: 8px;
+    border-color: #4f6296; 
+  }
+  
+  .wrapper {
+    max-width: 960px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px solid #4f6296;
+
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  table, td, th {
+    border: 1px dotted black; 
+    background-color: rgba(204, 204, 255, .4);
+    padding: 4px
+  }
+  
+  table {
+    margin: auto;
+    width: 100%;
+  }
+  
+  th {
+    font-size: 18px;
+    text-align: left;
+    width: 60px;
+  }
+  
+  td {
+   width: 70px;
+   font-size: 14px;
+  }
+  
