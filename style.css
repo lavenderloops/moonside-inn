@@ -46,7 +46,7 @@ a:hover {
 /* || Body */
 
 body {
-    background-image: url(images/gradient-background.png)
+    /* background-image: url(images/gradient-background.png) */
 }
 
 /* || Website Container */
@@ -64,8 +64,7 @@ body {
 /* || Header & Sidebar Navigation */
 
 .leftSideContainer {
-    background: rgb(8, 3, 102);
-    background: linear-gradient(0deg, rgb(2, 2, 54,.9) 0%, rgba(2,0,36,.8) 90%, rgb(0, 0, 39, .9) 100%);
+    background: #162f40;
     margin: 6px 24px 6px 24px;
     min-width: 200px;
     max-width: 200px;
@@ -98,7 +97,7 @@ body {
 
 
 .leftNav > div {
-    background-color: rgba(27, 16, 39, 0.384);
+    background-color: #0d2331;
 
     padding: 2px;
     border-top: 1px dotted #faf3cb;
@@ -172,19 +171,3 @@ body {
     border-left: 1px solid  rgb(246, 213, 30, .8);
 }
 
-.centerFlex {
-    display: flex;
-    flex-direction: row;
-   
-    margin: auto;
-    padding: 10px;
-    font-family: rainy hearts;
-    font-size: 18px;
-}
-
-.centerFlex > div {
-    background-color: lavender;
-    margin: 0px 8px 0px 8px;
-    padding: 0px 8px 0px 8px;
-    border-radius: 2px;
-}
