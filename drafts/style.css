@@ -1,0 +1,173 @@
+/* || Typography */
+
+@font-face {
+    font-family: Daydream;
+    src: url(fonts/Daydream.ttf)
+}
+
+@font-face {
+    font-family: Gothic Pixels;
+    src: url(fonts/GothicPixels.ttf);
+}
+
+@font-face {
+    font-family: Rainy Hearts;
+    src: url(fonts/rainyhearts.ttf);
+}
+
+@font-face {
+    font-family: Retro Gaming;
+    src: url(fonts/Retro\ Gaming.ttf);
+}
+
+@font-face {
+    font-family: FantasqueSans;
+    src: url(fonts/FantasqueSansMono-Regular.otf);
+}
+
+a:link {
+    font-family: rainy hearts;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+/* _ */
+
+/* || Body */
+
+body {
+    /* background-image: url(images/gradient-background.png) */
+}
+
+/* || Website Container */
+
+.websiteContainer {
+    max-width: 800px;
+    max-height: 1000px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* || Header & Sidebar Navigation */
+
+.leftSideContainer {
+    background: #162f40;
+    margin: 6px 24px 6px 24px;
+    min-width: 200px;
+    max-width: 200px;
+    padding: 8px;
+
+    border-radius: 4px;
+    border: 1px solid #ffffff34;
+
+    box-shadow: -3px 3px rgb(0, 0, 0);
+
+    font-family: rainy hearts;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    color: white;
+    font-family: daydream;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+}
+
+.leftNav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.leftNav > div {
+    background-color: #0d2331;
+
+    padding: 2px;
+    border-top: 1px dotted #faf3cb;
+    border-left: 1px dotted  #faf3cb;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    border-radius: 2px;
+}
+
+.leftNav > div:hover {
+    background-color: #e9d567;
+    color: black;
+    font-weight: bold;
+}
+
+/* Center Content */
+
+.centerContent {
+    background: linear-gradient(0deg, rgb(2, 2, 54, .6) 0%, 
+    rgba(2,0,36,.8) 90%, rgb(0, 0, 39, .9) 100%);
+
+    position: absolute;
+    top: 0;
+    left: 260px;
+    margin: 8px auto auto auto;
+    padding: 10px;
+    width: 600px;
+    height: fit-content;
+
+    border-top: 1px dotted #faf3cb;
+    border-left: 1px dotted  #faf3cb;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    border-radius: 4px;
+}
+
+.centerBanner {
+    margin-top: 8px;
+    max-width: 600px;
+}
+
+.centerHeader {
+    font-family: daydream;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin: 12px;
+}
+
+.centerBody {
+    font-family: rainy hearts;
+    font-size: 18px; 
+    color: rgb(0, 0, 20);
+    
+
+    margin: 24px 12px auto 12px;
+    padding: 12px;
+
+    background-color: rgb(240, 248, 255, .9);
+    border-radius: 4px;
+    border: 1px black;
+    box-shadow: 2px 2px black;
+}
+
+.centerBanner > img {
+    border-radius: 4px;
+    box-shadow: 2px 4px black;
+    border-top: 1px dotted rgb(246, 213, 30, .8);
+    border-left: 1px solid  rgb(246, 213, 30, .8);
+}
+

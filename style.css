@@ -42,9 +42,13 @@
 
 body {
     background-image: url(/images/diamond-bg.png);
+    font-family: rainy hearts;
+    font-size: 16px;
 }
 
-
+body > h1, h2, h3 {
+    text-align: center;
+}
 
 /* _ */
 
@@ -52,15 +56,6 @@ body {
     margin: auto;
     padding: 8px;
 
-body {
-    /* background-image: url(images/gradient-background.png) */
-}
-
-/* || Website Container */
-
-.websiteContainer {
-    max-width: 800px;
-    max-height: 1000px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -74,103 +69,133 @@ body {
     align-items: center;
     
     border-radius: 4px;
-    border: 1px solid #ffffff34;
+    border: 6px var(--twilight) ridge;
 
-    box-shadow: -3px 3px rgb(0, 0, 0);
-
-    font-family: rainy hearts;
-    font-size: 18px;
-    text-align: center;
-    color: white;
+    background-color: #eaf2ff;
+    box-shadow: 8px 8px #000511a4;
 }
 
-.header {
-    color: white;
-    font-family: daydream;
-    font-size: 22px;
-    text-align: center;
-    padding: 8px;
-}
-
-.leftNav {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-
-.leftNav > div {
-    background-color: #0d2331;
-
-    padding: 2px;
-    border-top: 1px dotted #faf3cb;
-    border-left: 1px dotted  #faf3cb;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-
-    border-radius: 2px;
-}
-
-.leftNav > div:hover {
-    background-color: #e9d567;
-    color: black;
-    font-weight: bold;
-}
-
-/* Center Content */
-
-.centerContent {
-    background: linear-gradient(0deg, rgb(2, 2, 54, .6) 0%, 
-    rgba(2,0,36,.8) 90%, rgb(0, 0, 39, .9) 100%);
-
-    position: absolute;
-    top: 0;
-    left: 260px;
-    margin: 8px auto auto auto;
-    padding: 10px;
-    width: 600px;
+.outerflex > .center {
+    margin: auto;
+    padding: 8px; 
+    
+    width: 400px;
     height: fit-content;
 
-    border-top: 1px dotted #faf3cb;
-    border-left: 1px dotted  #faf3cb;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px var(--gris) dotted;
+} 
 
-    border-radius: 4px;
-}
 
-.centerBanner {
-    margin-top: 8px;
-    max-width: 600px;
-}
-
-.centerHeader {
-    font-family: daydream;
-    font-size: 28px;
-    text-align: center;
-    color: white;
-    margin: 12px;
-}
-
-.centerBody {
-    font-family: rainy hearts;
-    font-size: 18px; 
-    color: rgb(0, 0, 20);
-    
-
-    margin: 24px 12px auto 12px;
+.center > div {
+    margin: 12px auto;
     padding: 12px;
 
-    background-color: rgb(240, 248, 255, .9);
+    border-top: 1px var(--gris) dotted;
     border-radius: 4px;
-    border: 1px black;
-    box-shadow: 2px 2px black;
 }
 
-.centerBanner > img {
+.center > img {
     border-radius: 4px;
-    box-shadow: 2px 4px black;
-    border-top: 1px dotted rgb(246, 213, 30, .8);
-    border-left: 1px solid  rgb(246, 213, 30, .8);
+    width: 100%;
+    margin: auto;
 }
 
+.outerflex > .leftMenu {
+    margin: auto;
+    padding: 8px; 
+
+    height: 400px;
+    width: 224px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;   
+}
+
+.leftMenu > .logBook {
+    padding: 8px;
+    border-radius: 2px;
+
+    background-color: var(--umbra);
+    color: white;
+}
+
+.leftMenu > .currents {
+    padding: 8px;
+
+    border-radius: 2px;
+    border: var(--midnight) solid 4px;
+
+    background-color: var(--moonlight);
+}
+
+
+.outerflex > .rightMenu {
+    margin: auto;
+    padding: 8px;
+
+    height: 400px;
+    width: 224px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.rightMenu > .almanac {
+    padding: 8px;
+    border-radius: 2px;
+
+    background-image: url(/images/winterAlmanac/clipboard.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rightMenu p {
+    color: black;
+    text-align: center;
+}
+
+.sprite {
+    display: block;
+    width: 40%;
+    margin: auto auto auto auto;
+}
+
+
+.rightMenu > .blinkies {
+    margin-top: 24px;
+    padding: 12px 8px;
+
+    border-radius: 2px;
+    border-top: 1px dotted black;
+
+    background-color: transparent;
+}
+
+ table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  th {
+    font-size: 12px;
+    text-align: left;
+    width: 20%;
+    padding: 8px;    
+  }
+  
+  td {
+   width: 80%;
+   font-size: 12px;
+   padding: 4px;
+  }
+
+  tr:hover {
+    background-color: #5f3c7f;
+  }
