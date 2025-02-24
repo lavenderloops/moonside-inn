@@ -44,10 +44,21 @@ body {
     background-image: url(/images/diamond-bg.png);
     font-family: rainy hearts;
     font-size: 16px;
+    color: var(--umbra)
 }
 
-body > h1, h2, h3 {
+h1, h2, h3 {
     text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 4px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 4px;;
 }
 
 /* _ */
@@ -69,11 +80,112 @@ body > h1, h2, h3 {
     align-items: center;
     
     border-radius: 4px;
-    border: 6px var(--twilight) ridge;
+    border: 2px var(--twilight) ridge;
 
     background-color: #eaf2ff;
-    box-shadow: 8px 8px #000511a4;
+    box-shadow: 4px 4px #000511a4;
 }
+
+/* Left  */
+
+.outerflex > .leftMenu {
+    margin: auto;
+    padding: 8px; 
+
+    height: 400px;
+    width: 224px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;   
+}
+
+/* logbook */
+
+.leftMenu > .logbook {
+    padding: 8px;
+
+    border-radius: 2px;
+    border: 2px inset var(--moonlight);
+
+    background-color: var(--umbra);
+    color: white;
+}
+
+table.logbook {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px;
+}
+
+table.logbook th {
+    font-size: 13px;
+    text-align: left;
+    width: 20%;
+    padding: 8px;
+    color: var(--starlight);
+}
+
+table.logbook td {
+    width: 80%;
+    font-size: 13px;
+    padding: 4px;
+   }
+
+table.logbook tr:hover {
+    background-color: var(--twilight);
+  }
+
+table.logbook th a {
+    display: block;
+    color: var(--starlight);
+    text-decoration: none;
+}
+
+table.logbook td a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+  /* currents */
+  
+.leftMenu > .currents {
+    padding: 8px;
+
+    border-radius: 2px;
+    border: 2px inset var(--midnight);
+
+    background-color: var(--moonlight);
+}
+
+table.currents {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px;
+}
+
+table.currents th {
+    font-size: 13px;
+    text-align: left;
+    width: 20%;
+    padding: 8px;
+}
+
+table.currents td {
+    width: 80%;
+    font-size: 13px;
+    padding: 4px;
+   }
+ 
+ table.currents tr:hover {
+     background-color: var(--soft-blue);
+   }
+ 
+
+/* Center */
 
 .outerflex > .center {
     margin: auto;
@@ -102,35 +214,7 @@ body > h1, h2, h3 {
     margin: auto;
 }
 
-.outerflex > .leftMenu {
-    margin: auto;
-    padding: 8px; 
-
-    height: 400px;
-    width: 224px;
-    
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;   
-}
-
-.leftMenu > .logBook {
-    padding: 8px;
-    border-radius: 2px;
-
-    background-color: var(--umbra);
-    color: white;
-}
-
-.leftMenu > .currents {
-    padding: 8px;
-
-    border-radius: 2px;
-    border: var(--midnight) solid 4px;
-
-    background-color: var(--moonlight);
-}
-
+/* right  */
 
 .outerflex > .rightMenu {
     margin: auto;
@@ -149,7 +233,7 @@ body > h1, h2, h3 {
     border-radius: 2px;
 
     background-image: url(/images/winterAlmanac/clipboard.png);
-    background-size: 70%;
+    background-size: 66%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -165,37 +249,14 @@ body > h1, h2, h3 {
     margin: auto auto auto auto;
 }
 
-
 .rightMenu > .blinkies {
     margin-top: 24px;
     padding: 12px 8px;
 
     border-radius: 2px;
-    border-top: 1px dotted black;
+    border-top: 1px dotted var(--gris);
 
     background-color: transparent;
 }
 
- table {
-    margin: auto;
-    width: 100%;
-    border-collapse: collapse;
-    
-  }
-  
-  th {
-    font-size: 12px;
-    text-align: left;
-    width: 20%;
-    padding: 8px;    
-  }
-  
-  td {
-   width: 80%;
-   font-size: 12px;
-   padding: 4px;
-  }
-
-  tr:hover {
-    background-color: #5f3c7f;
-  }
+ 
