@@ -40,6 +40,11 @@
 
 /*  */
 
+html {
+    scrollbar-color: var(--midnight) var(--umbra);
+    scrollbar-width: thin;
+}
+
 body {
     background-image: url(/images/diamond-bg.png);
     font-family: rainy hearts;
@@ -180,10 +185,21 @@ table.currents td {
     padding: 4px;
    }
  
- table.currents tr:hover {
+table.currents tr:hover {
      background-color: var(--soft-blue);
    }
  
+   
+table.currents th a, td a {
+    display: block;
+    color: var(--midnight);
+    text-decoration: none;
+}
+
+table.currents  th a:hover, td a:hover{
+    display: block;
+    color: #000000 ;
+}
 
 /* Center */
 
