@@ -34,7 +34,7 @@ a:hover {
 .header {
     position: sticky;
     top: 0px;
-    width: 780px;
+    width: 800px;
 
     background-image: url(images/background/j06-bg-cloth.png);
     border: 1px dotted var(--gris);
