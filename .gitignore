@@ -1,2 +1,3 @@
-.aseprite*
-.mp3*
+*.aseprite
+*.mp3
+*.psd

@@ -1,0 +1,118 @@
+
+
+body {
+    width: 900px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    background-image: url(images/background/CEDFENCE.JPG);
+
+}
+
+a:hover {
+    color: var(--midnight);
+    text-decoration: underline;
+}
+
+.mainContainer {
+    max-height: 900px;
+    background-image: url(images/background/CARPET03.png);
+    margin: 24px auto;
+}
+
+.content {
+    margin: 0px 12px 12px 12px;
+    max-height: 900px;
+    background-image: url(images/background/j06-bg-cloth.png);
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 5px 5px rgba(22, 1, 1, 0.521);
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    width: 780px;
+
+    background-image: url(images/background/j06-bg-cloth.png);
+    border: 1px dotted var(--gris);
+    
+
+    font-family: rainy hearts;
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.left {
+    border-right: 1px dotted var(--gris);
+    text-align: center;
+    width: 200px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.right {
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    width: 580px;
+    overflow-y: scroll;
+    max-height: 300px;
+    box-sizing: border-box;
+
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.book {
+    display: flex;
+    border-bottom: 1px dotted var(--gris);
+
+}
+
+.frame img {
+    text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 8px;;
+}
+
+.info {
+    padding-top: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.status {
+    color: var(--midnight);
+    font-style: italic;
+    font-size: 12px;
+    border: 1px dotted var(--gris);
+    border-radius: 4px;
+    background-color: var(--soft-blue);
+    padding: 2px 4px 2px 4px;
+    width: fit-content;
+    margin: auto auto 8px;
+
+    letter-spacing: 1px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tbr {
+    display: flex;
+    flex-direction: ;
+}

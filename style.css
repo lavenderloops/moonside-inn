@@ -9,6 +9,7 @@
     --gris: #7f8796;
     --umbra: #1b2124;
     --shade: #162f40;
+    --night: #16191d;
 }
 
 /* || Typography */
@@ -36,6 +37,11 @@
 @font-face {
     font-family: FantasqueSans;
     src: url(fonts/FantasqueSansMono-Regular.otf);
+}
+
+@font-face {
+    font-family: CartoSans;
+    src: url(fonts/Cartograph\ CF\ Regular.ttf);
 }
 
 /*  */
@@ -115,6 +121,7 @@ a:hover {
     padding: 6px 82px;
     border-radius: 4px;
     border: 1px var(--twilight) dotted;
+    background-color: var(--moonlight);
     
 }
 
@@ -126,7 +133,7 @@ a:hover {
 }
 
 .navbar > div:hover {
-    background-color: var(--midnight);
+    background-color: var(--soft-blue);
 }
 
 .mainContainer > .outerflex {
