@@ -46,13 +46,12 @@ html {
 }
 
 body {
-    background-image: url(/images/diamond-bg.png);
-    font-family: rainy hearts;
-    font-size: 16px;
+    background-image: url(/images/background/diamond-bg.png);
     color: var(--umbra)
 }
 
 h1, h2, h3 {
+    font-family: rainy hearts;
     text-align: center;
 }
 
@@ -66,29 +65,82 @@ h2 {
     line-height: 4px;;
 }
 
+a {
+    color: var(--umbra);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--moonlight);
+    font-weight: bold;
+}
+
 /* _ */
 
-.outerflex {
+.mainContainer {
+    display: flex; 
+    flex-direction: column;
+   
     margin: auto;
     padding: 8px;
+   
+    align-items: center;
+
+    width: fit-content;
+    height: fit-content;
 
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+    
+    border-radius: 4px;
+    border: 2px var(--twilight) ridge;
+
+    box-shadow: 4px 4px #000511a4;
+
+    font-family: fantasquesans;
+    font-size: 14px;
+
+    background-image: url(images/background/j06-bg-cloth.png);
+}
+
+.mainContainer > .navbar {
+
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 8px; 
+    padding: 6px 82px;
+    border-radius: 4px;
+    border: 1px var(--twilight) dotted;
+    
+}
+
+.navbar > div {
+    margin-left: 8px;
+    border-left: 1px solid var(--gris);
+    border-right: 1px solid var(--gris);
+    padding: 2px 12px;
+}
+
+.navbar > div:hover {
+    background-color: var(--midnight);
+}
+
+.mainContainer > .outerflex {
+    
+    padding: 8px;
     
     width: fit-content;
     height: fit-content;
     
     display: flex;
     align-items: center;
-    
-    border-radius: 4px;
-    border: 2px var(--twilight) ridge;
 
-    background-color: #eaf2ff;
-    box-shadow: 4px 4px #000511a4;
+    column-gap: 12px;
+    
 }
 
 /* Left  */
@@ -98,11 +150,17 @@ h2 {
     padding: 8px; 
 
     height: 400px;
-    width: 224px;
+    width: 244px;
     
     display: flex;
     flex-direction: column;
-    row-gap: 16px;   
+    row-gap: 16px; 
+    
+    font-family: fantasquesans;
+    background-color: var(--moonlight);
+    border-radius: 4px;
+    border: 1px var(--twilight) dotted;
+    box-shadow: 1px 1px var(--midnight);
 }
 
 /* logbook */
@@ -110,18 +168,24 @@ h2 {
 .leftMenu > .logbook {
     padding: 8px;
 
-    border-radius: 2px;
-    border: 2px inset var(--moonlight);
+    height: 180px;
+
+    border-radius: 4px;
+    border: 1px solid #7f879670;
 
     background-color: var(--umbra);
-    color: white;
+    color: var(--moonlight);
+
+    /* overflow-y: scroll; */
 }
 
 table.logbook {
     margin: auto;
-    width: 100%;
+    width: 200px;
     border-collapse: collapse;
     border: 0px;
+    background-color: #16191d;
+    border-radius: 4px;
 }
 
 table.logbook th {
@@ -130,12 +194,13 @@ table.logbook th {
     width: 20%;
     padding: 8px;
     color: var(--starlight);
+    border-bottom: 1px solid #7f879670;
 }
 
 table.logbook td {
-    width: 80%;
     font-size: 13px;
-    padding: 4px;
+    border-bottom: 1px solid #7f879670;
+    text-align: center;
    }
 
 table.logbook tr:hover {
@@ -150,7 +215,7 @@ table.logbook th a {
 
 table.logbook td a {
     display: block;
-    color: white;
+    color: var(--moonlight);
     text-decoration: none;
 }
 
@@ -162,7 +227,9 @@ table.logbook td a {
     border-radius: 2px;
     border: 2px inset var(--midnight);
 
-    background-color: var(--moonlight);
+    color: var(--umbra);
+
+    background-image: url(images/background/texture-of-day.jpg);
 }
 
 table.currents {
@@ -170,6 +237,9 @@ table.currents {
     width: 100%;
     border-collapse: collapse;
     border: 0px;
+    border-radius: 4px;
+
+    background-color: var(--moonlight);
 }
 
 table.currents th {
@@ -177,28 +247,31 @@ table.currents th {
     text-align: left;
     width: 20%;
     padding: 8px;
+    color: var(--umbra)
 }
 
 table.currents td {
     width: 80%;
     font-size: 13px;
     padding: 4px;
+
+    color: var(--umbra)
    }
  
 table.currents tr:hover {
      background-color: var(--soft-blue);
    }
  
-   
+
 table.currents th a, td a {
     display: block;
-    color: var(--midnight);
+    color: var(--umbra);
     text-decoration: none;
 }
 
 table.currents  th a:hover, td a:hover{
     display: block;
-    color: #000000 ;
+    color: #000000;
 }
 
 /* Center */
@@ -212,16 +285,21 @@ table.currents  th a:hover, td a:hover{
 
     align-items: center;
     border-radius: 2px;
-    border: 1px var(--gris) dotted;
+    
+    background-color: var(--moonlight);
+    border-radius: 4px;
+    border: 1px var(--twilight) dotted;
+    box-shadow: 1px 1px var(--midnight);
 } 
 
 
 .center > div {
-    margin: 12px auto;
-    padding: 12px;
+    margin: 8px;
+    padding: 16px;
 
-    border-top: 1px var(--gris) dotted;
+    border: 2px var(--midnight) solid;
     border-radius: 4px;
+    background-image: url(images/background/l01-bg-paper.png);
 }
 
 .center > img {
@@ -230,6 +308,14 @@ table.currents  th a:hover, td a:hover{
     margin: auto;
 }
 
+.center > .navbar {
+    display: flex;
+    flex-direction: row;
+    border-top: 0px;
+    margin: auto;
+}
+
+
 /* right  */
 
 .outerflex > .rightMenu {
@@ -237,11 +323,16 @@ table.currents  th a:hover, td a:hover{
     padding: 8px;
 
     height: 400px;
-    width: 224px;
+    width: 244px;
     
     display: flex;
     flex-direction: column;
     row-gap: 6px;
+    
+    background-color: var(--moonlight);
+    border-radius: 4px;
+    border: 1px var(--twilight) dotted;
+    box-shadow: 1px 1px var(--midnight);
 }
 
 .rightMenu > .almanac {
@@ -249,7 +340,7 @@ table.currents  th a:hover, td a:hover{
     border-radius: 2px;
 
     background-image: url(/images/winterAlmanac/clipboard.png);
-    background-size: 66%;
+    background-size: 62%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -273,6 +364,11 @@ table.currents  th a:hover, td a:hover{
     border-top: 1px dotted var(--gris);
 
     background-color: transparent;
+
 }
 
- 
+.blinkies > img {
+    display: block;
+    width: 100%
+}
+

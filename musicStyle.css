@@ -18,6 +18,8 @@ h1 {
 
 p {
     line-height: 0px;
+    font-family: fantasquesans;
+    text-align: center;
     color: var(--moonlight);
 }
 
@@ -73,6 +75,7 @@ div.scroll-container img:hover {
     background-color: #16191d;
     margin: auto;
     width: 95%;
+    font-family: rainy hearts;
     font-size: 24px;
     padding: 4px 0px 8px 0px;
   }
@@ -82,7 +85,7 @@ div.scroll-container img:hover {
     padding: 6px;
     margin: auto;
     font-weight: bold;
-    color: #ab71e2;
+    color: #D7BBF1;
     background-color: #111416;
 
     border-bottom: 1px solid #7f87962d;

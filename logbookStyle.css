@@ -145,6 +145,7 @@ table.logbook td {
     padding: 8px;
     font-weight: normal;
     border-bottom: 1px inset #7f87963f;
+    text-align: left;
    }
 
 table.logbook tr:hover {
