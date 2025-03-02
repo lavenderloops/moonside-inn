@@ -15,16 +15,15 @@ a:hover {
 }
 
 .mainContainer {
-    max-height: 900px;
     background-image: url(images/background/CARPET03.png);
-    margin: 24px auto;
+    margin: 36px auto;
+    padding: 24px;
+    width: 800px;
 }
 
-.content {
-    margin: 0px 12px 12px 12px;
-    max-height: 900px;
+.innerContainer {
     background-image: url(images/background/j06-bg-cloth.png);
-
+    width: 100%;
     display: flex;
     flex-direction: column;
 
@@ -34,7 +33,7 @@ a:hover {
 .header {
     position: sticky;
     top: 0px;
-    width: 800px;
+    width: 100%;
 
     background-image: url(images/background/j06-bg-cloth.png);
     border: 1px dotted var(--gris);
@@ -45,14 +44,14 @@ a:hover {
     padding-left: 18px;
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-top: 12px;
+    margin-bottom: 4px;
     box-sizing: border-box;
 }
 
 .left {
     border-right: 1px dotted var(--gris);
     text-align: center;
-    width: 200px;
+    width: 40%;
     padding: 4px;
     box-sizing: border-box;
     margin: auto;
@@ -63,12 +62,17 @@ a:hover {
     padding-top: 10px;
     
     width: 580px;
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: 300px;
     box-sizing: border-box;
 
     font-size: 15px;
     line-height: 16px;
+}
+
+.comments {
+    margin: 8px 36px 0px 8px;
+    text-align: justify;
 }
 
 .book {
@@ -81,8 +85,7 @@ a:hover {
     text-align: center;
     text-align: center;
     box-sizing: border-box;
-    max-width: 200px;
-    max-height: 200px;
+    width: 150px;
     margin-top: 8px;;
 }
 
@@ -106,13 +109,69 @@ a:hover {
     letter-spacing: 1px;
 }
 
-
 .title {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 15px;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.author {
+    font-size: 16px;
+    line-height: 16px;
+}
+.date {
+    margin-top: 2px;
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+}
+.collapsible {
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px dotted var(--midnight);
+    box-sizing: border-box;
+
+    font-family: fantasquesans;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.active, .collapsible:hover {
+    background-color: var(--soft-blue);
+}
+
+.content {
+    display: none;
+    /* overflow: hidden; */
+}
+
+.current {
+    margin: auto auto 8px;
+    text-align: center;
+}
+
+.current img {
+    margin-top: 16px;
+    max-width: 200px;
+    /* border: 4px solid var(--gris);
+    border-radius: 4px; */
 }
 
 .tbr {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+}
+
+.tbr > div {
+    border-bottom: 1px dotted var(--midnight);
+    text-align: left;
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
 }
