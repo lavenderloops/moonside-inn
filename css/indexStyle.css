@@ -41,6 +41,8 @@ a:hover {
     border-radius: 4px;
     border: 1px ridge var(--twilight);
     box-shadow: 3px 3px black;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -59,6 +61,13 @@ a:hover {
     font-size: 32px;
 }
 
+.header p {
+    text-align: right;
+    color: var(--moonlight);
+    font-family: fantasquesans;
+    font-size: 14px;
+}
+
 .header>div {
     margin-top: 8px;
     padding: 2px;
@@ -67,10 +76,11 @@ a:hover {
 
 .lowerContainer {
     display: flex;
-    background-color: var(--night);
     padding: 8px;
     margin-top: 8px;
     border-radius: 4px;
+    gap: 8px;
+    background-image: url(../images/background/starGrid.png);
     border: 1px ridge var(--twilight);
     box-shadow: 3px 3px black;
 }
@@ -79,11 +89,18 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-width: 180px;
+    padding: 8px;
+
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
+    border-radius: 4px;
+
 }
 
 .naviation {
     display: flex;
     flex-direction: column;
+
 }
 
 .navigation>h2 {
@@ -104,34 +121,41 @@ a:hover {
 .rightContent {
     color: var(--moonlight);
     font-family: fantasquesans;
-
+    padding: 2px;
     width: 100%;
     overflow: auto;
     display: flex;
     flex-direction: column;
+    gap: 8px;
+
 }
 
 .contentBlock {
-    padding: 8px;
+    padding: 8px 0px 8px 0px;
     font-size: 12px;
-    border-radius: 2px;
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
+    border-radius: 4px;
+
 }
 
 .contentFlex {
     display: flex;
-    gap: 12px;
-    margin: 12px;
+    gap: 8px;
+
 }
 
 .contentFlex>div {
-    margin-top: 8px;
     padding: 8px;
     font-size: 12px;
     border-radius: 2px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.322);
-    border: 1px solid var(--twilight);
+    padding: 8px;
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
+    border-radius: 4px;
+
 }
 
 .flexBox {
@@ -145,7 +169,6 @@ a:hover {
     border-radius: 2px;
     width: 100%;
     box-sizing: border-box;
-    color: var(nigh);
 }
 
 .currentHead {
@@ -157,8 +180,9 @@ a:hover {
 .currentBody {
     font-size: 12px;
     text-align: right;
+    color: var(--moonlight);
 }
 
 .logbookDate {
-    color: var(--starlight);
+    color: var(--soft-blue);
 }

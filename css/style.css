@@ -55,8 +55,23 @@
 }
 
 @font-face {
-    font-family: Zelda;
-    src: url(../fonts/breathOfZelda.otf);
+    font-family: Boska-light;
+    src: url(../fonts/Boska-Light.woff);
+}
+
+@font-face {
+    font-family: Boska-reg;
+    src: url(../fonts/Boska-Regular.woff);
+}
+
+@font-face {
+    font-family: Boska-bold;
+    src: url(../fonts/Boska-Bold.woff);
+}
+
+@font-face {
+    font-family: switzer-light;
+    src: url(../fonts/Switzer-Light.woff);
 }
 
 /*  */
@@ -218,7 +233,7 @@ table.logbook th {
     font-size: 13px;
     width: 60px;
     text-align: left;
-    color: var(--starlight);
+    color: var(--soft-blue);
     border-bottom: 1px solid #7f879670;
     padding: 4px;
     border-radius: 2px;
@@ -399,8 +414,10 @@ td a:hover {
 
 .blinkies {
     margin: auto;
+    position: center;
 }
 
 .blinkies>img {
-    display: inline;
+    display: inline-block;
+    width: 20%;
 }
