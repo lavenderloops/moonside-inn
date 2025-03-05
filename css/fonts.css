@@ -1,0 +1,182 @@
+/* Display */
+
+@font-face {
+    font-family: zelda;
+    src: url(/fonts/display/breathOfZelda.otf);
+}
+
+@font-face {
+    font-family: gothic-pixels;
+    src: url(../fonts/display/gothicPixels.ttf);
+}
+
+@font-face {
+    font-family: motorola;
+    src: url(/fonts/display/motorolaScreentype.ttf);
+}
+
+@font-face {
+    font-family: rainy-hearts;
+    src: url(/fonts/display/rainyHearts.ttf);
+}
+
+@font-face {
+    font-family: retro-gaming;
+    src: url(/fonts/display/retroGaming.ttf);
+}
+
+/* Monospace */
+
+@font-face {
+    font-family: FantasqueSans;
+    src: url(/fonts/mono/FantasqueSansMono-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FantasqueSans;
+    src: url(/fonts/mono/FantasqueSansMono-Italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: FantasqueSans;
+    src: url(/fonts/mono/FantasqueSansMono-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FantasqueSans;
+    src: url(/fonts/mono/FantasqueSansMono-BoldItalic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CartoSans;
+    src: url(/fonts/mono/cartographSans-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CartoSans;
+    src: url(/fonts/mono/cartographSans-light.ttf);
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CartoSans;
+    src: url(/fonts/mono/cartographSans-lightItalic.ttf);
+    font-weight: light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CartoSans;
+    src: url(/fonts/mono/cartographSans-bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* Sans Serif */
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Light.woff);
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Light.woff);
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Italic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Medium.woff);
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: switzer;
+    src: url(/fonts/sans/Switzer-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Serif */
+
+@font-face {
+    font-family: boska;
+    src: url(/fonts/serif/Boska-Light.woff);
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: boska;
+    src: url(/fonts/serif/Boska-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: boska;
+    src: url(/fonts/serif/Boska-Medium.woff);
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: boska;
+    src: url(/fonts/serif/Boska-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: boska;
+    src: url(/fonts/serif/Boska-Italic.woff);
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,79 +12,6 @@
     --night: #16191d;
 }
 
-/* || Typography */
-
-@font-face {
-    font-family: Daydream;
-    src: url(../fonts/Daydream.ttf)
-}
-
-@font-face {
-    font-family: Gothic Pixels;
-    src: url(../fonts/GothicPixels.ttf);
-}
-
-@font-face {
-    font-family: Rainy Hearts;
-    src: url(../fonts/rainyhearts.ttf);
-}
-
-@font-face {
-    font-family: Retro Gaming;
-    src: url(../fonts/Retro\ Gaming.ttf);
-}
-
-@font-face {
-    font-family: FantasqueSans;
-    src: url(../fonts/FantasqueSansMono-Regular.otf);
-}
-
-@font-face {
-    font-family: CartoSans;
-    src: url(../fonts/Cartograph\ CF\ Regular.ttf);
-}
-
-@font-face {
-    font-family: K22;
-    src: url(../fonts/K22\ Monastic.otf);
-}
-
-@font-face {
-    font-family: FairyDust;
-    src: url(../fonts/FairyDustB.ttf);
-}
-
-@font-face {
-    font-family: Boska-light;
-    src: url(../fonts/Boska-Light.woff);
-}
-
-@font-face {
-    font-family: Boska-reg;
-    src: url(../fonts/Boska-Regular.woff);
-}
-
-@font-face {
-    font-family: Boska-med;
-    src: url(../fonts/Boska-Medium.woff);
-}
-
-@font-face {
-    font-family: Boska-bold;
-    src: url(../fonts/Boska-Bold.woff);
-}
-
-@font-face {
-    font-family: switzer-light;
-    src: url(../fonts/Switzer-Light.woff);
-}
-
-@font-face {
-    font-family: switzer-reg;
-    src: url(../fonts/Switzer-Regular.woff);
-}
-
-
 /*  */
 
 html {
@@ -100,7 +27,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: rainy hearts;
+    font-family: rainy-hearts;
     text-align: center;
 }
 

@@ -8,7 +8,8 @@ body {
 }
 
 a {
-    font-family: boska-med;
+    font-family: boska;
+    font-weight: bold;
     color: var(--night);
     text-decoration: none;
 }
@@ -43,7 +44,9 @@ a:hover {
     border: 1px dotted var(--gris);
 
 
-    font-family: Boska-reg;
+    font-family: boska;
+    font-weight: normal;
+    
     font-size: 18px;
     padding-left: 18px;
     padding-top: 6px;
@@ -75,8 +78,10 @@ a:hover {
 }
 
 .quote {
-    font-family: boska-med;
+    font-family: boska;
+    font-style: italic;
     font-size: 15px;
+
     text-align: left;
     line-height: 18px;
     border-left: 22px solid var(--twilight);
@@ -89,7 +94,8 @@ a:hover {
 .comments {
     margin: 8px 36px 0px 8px;
     text-align: justify;
-    font-family: switzer-light;
+    font-family: switzer;
+    font-weight: light;
     font-size: 13px;
     line-height: 13px;
 }
@@ -111,7 +117,8 @@ a:hover {
 }
 
 .info {
-    font-family: switzer-light;
+    font-family: switzer;
+    font-weight: light;
     padding-top: 12px;
     line-height: 16px;
     margin-bottom: 8px;
@@ -132,7 +139,8 @@ a:hover {
 }
 
 .title {
-    font-family: Boska-bold;
+    font-family: boska;
+    font-weight: bold;
     font-size: 20px;
     line-height: 20px;
     padding: 2px;
@@ -160,7 +168,9 @@ a:hover {
     border-bottom: 1px dotted var(--midnight);
     box-sizing: border-box;
 
-    font-family: boska-reg;
+    font-family: boska;
+    font-weight: normal;
+
     font-size: 18px;
     text-align: center;
 

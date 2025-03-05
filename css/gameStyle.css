@@ -17,14 +17,21 @@
 body {
     background-image: none;
     background-color: var(--night);
-    font-family: switzer-reg;
+    font-family: switzer;
+    font-weight: normal;
 }
 
-h1 {
-    font-family: retro gaming;
+.gameHeader {
+    font-family: motorola;
+    text-align: center;
+    color: var(--moonlight);
+    background-color: var(--twilight);
+    padding: 0px;
 }
 
 /*  */
+
+
 .switchContainer {
     max-height: 700px;
     max-width: 1500px;

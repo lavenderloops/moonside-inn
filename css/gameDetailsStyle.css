@@ -7,8 +7,8 @@
 
 .leftMenu {
     height: fit-content;
-    position: sticky;
 }
+
 
 .navi {
     margin: 6px;
@@ -27,7 +27,7 @@
 }
 
 .title {
-    font-family: retro gaming;
+    font-family: motorola;
     line-height: 24px;
 }
 
@@ -51,7 +51,8 @@
     line-height: 12px;
     margin: 12px 8px auto;
     text-decoration: underline;
-    font-family: retro gaming;
+    font-family: motorola;
+    letter-spacing: 2px;
     font-size: 18px;
     letter-spacing: 1px;
 }
