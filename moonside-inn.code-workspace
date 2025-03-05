@@ -3,5 +3,9 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
+    }
 }

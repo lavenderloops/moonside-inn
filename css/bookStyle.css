@@ -72,9 +72,6 @@ a:hover {
     overflow-y: auto;
     max-height: 300px;
     box-sizing: border-box;
-
-    font-size: 15px;
-    line-height: 16px;
 }
 
 .quote {
@@ -95,7 +92,7 @@ a:hover {
     margin: 8px 36px 0px 8px;
     text-align: justify;
     font-family: switzer;
-    font-weight: light;
+    font-weight: 100;
     font-size: 13px;
     line-height: 13px;
 }

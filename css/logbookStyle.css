@@ -93,8 +93,8 @@ body {
 
 .tab a {
     color: var(--gris);
-    font-family: rainy hearts;
-    font-size: 16px;
+    font-family: fantasquesans;
+    font-size: 12px;
     margin: 4px 8px;
     text-decoration: none;
 }
