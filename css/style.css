@@ -65,6 +65,11 @@
 }
 
 @font-face {
+    font-family: Boska-med;
+    src: url(../fonts/Boska-Medium.woff);
+}
+
+@font-face {
     font-family: Boska-bold;
     src: url(../fonts/Boska-Bold.woff);
 }
@@ -73,6 +78,12 @@
     font-family: switzer-light;
     src: url(../fonts/Switzer-Light.woff);
 }
+
+@font-face {
+    font-family: switzer-reg;
+    src: url(../fonts/Switzer-Regular.woff);
+}
+
 
 /*  */
 
@@ -101,315 +112,200 @@ h1 {
 h2 {
     font-size: 24px;
     line-height: 4px;
-    ;
 }
 
 a {
-    color: var(--umbra);
+    color: var(--moonlight);
     text-decoration: none;
 }
 
+
 a:hover {
-    color: var(--moonlight);
-    font-weight: bold;
+    text-decoration: underline;
+    color: #d7e4fa;
 }
 
 /* _ */
 
-.mainContainer {
+.wrapper {
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.header {
     display: flex;
     flex-direction: column;
-
-    margin: auto;
+    background-color: var(--night);
     padding: 8px;
-
-    align-items: center;
-
-    width: fit-content;
-    height: fit-content;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
     border-radius: 4px;
-    border: 2px var(--twilight) ridge;
+    border: 1px ridge var(--twilight);
+    box-shadow: 3px 3px black;
+    width: 100%;
+    box-sizing: border-box;
 
-    box-shadow: 4px 4px #000511a4;
+}
 
+.header img {
+    border-radius: 4px;
+    width: 100%;
+    border: 1px black ridge;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: right;
+    color: var(--moonlight);
+    margin-right: 8px;
+    font-size: 32px;
+}
+
+.header p {
+    text-align: right;
+    color: var(--moonlight);
     font-family: fantasquesans;
     font-size: 14px;
-
-    background-image: url(../images/background/j06-bg-cloth.png);
 }
 
-.mainContainer>.navbar {
+.header>div {
+    margin-top: 8px;
+    padding: 2px;
+    border-bottom: 1px dotted var(--gris)
+}
 
+.lowerContainer {
     display: flex;
-    flex-direction: row;
-    width: fit-content;
-    margin: 8px;
-    padding: 6px 82px;
+    padding: 8px;
+    margin-top: 8px;
     border-radius: 4px;
-    border: 1px var(--twilight) dotted;
-    background-color: var(--moonlight);
-
+    gap: 8px;
+    background-image: url(../images/background/starGrid.png);
+    border: 1px ridge var(--twilight);
+    box-shadow: 3px 3px black;
 }
 
-.navbar>div {
-    margin-left: 8px;
-    border-left: 1px solid var(--gris);
-    border-right: 1px solid var(--gris);
-    padding: 2px 12px;
-}
-
-.navbar>div:hover {
-    background-color: var(--soft-blue);
-}
-
-.mainContainer>.outerflex {
-
-    padding: 8px;
-
-    width: fit-content;
-    height: fit-content;
-
-    display: flex;
-    align-items: center;
-
-    column-gap: 12px;
-
-}
-
-/* Left  */
-
-.outerflex>.leftMenu {
-    margin: auto;
-    padding: 8px;
-
-    height: 400px;
-    width: 244px;
-
+.leftMenu {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    min-width: 120px;
+    padding: 8px;
 
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
+    border-radius: 4px;
+
+}
+
+.leftMenu a:hover {
+    color: #e9f0fc;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.naviation {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation>h2 {
+    color: #d7acff;
+    letter-spacing: 1px;
+}
+
+.navigation>div {
+    margin: 4px;
+    padding: 3px;
+    border-bottom: 1px dotted #7f879654;
     font-family: fantasquesans;
-    background-color: var(--moonlight);
-    border-radius: 4px;
-    border: 1px var(--twilight) dotted;
-    box-shadow: 1px 1px var(--midnight);
+    font-size: 14px;
+    text-align: left;
+    color: var(--moonlight)
 }
 
-/* logbook */
-
-.leftMenu>.logbook {
-    padding: 8px;
-
-    height: 180px;
-
-    border-radius: 4px;
-    border: 1px solid #7f879670;
-
-    background-color: var(--umbra);
+.rightContent {
     color: var(--moonlight);
-
-    /* overflow-y: scroll; */
-}
-
-table.logbook {
-    margin: auto;
+    font-family: fantasquesans;
+    padding: 2px;
     width: 100%;
-    border-collapse: collapse;
-    border: 0px;
-
     overflow: auto;
-    padding: 4px;
-}
-
-table.logbook th {
-    font-size: 13px;
-    width: 60px;
-    text-align: left;
-    color: var(--soft-blue);
-    border-bottom: 1px solid #7f879670;
-    padding: 4px;
-    border-radius: 2px;
-}
-
-table.logbook td {
-    font-size: 13px;
-    border-bottom: 1px solid #7f879670;
-    text-align: left;
-    padding-left: 4px;
-}
-
-table.logbook tr:hover {
-    background-color: var(--twilight);
-}
-
-table.logbook th a {
-    display: block;
-    color: var(--starlight);
-    text-decoration: none;
-}
-
-table.logbook td a {
-    display: block;
-    color: var(--moonlight);
-    text-decoration: none;
-}
-
-/* currents */
-
-.leftMenu>.currents {
-    padding: 8px;
-
-    border-radius: 2px;
-    border: 2px inset var(--midnight);
-
-    color: var(--umbra);
-
-    background-image: url(../images/background/texture-of-day.jpg);
-}
-
-table.currents {
-    margin: auto;
-    width: 100%;
-    border-collapse: collapse;
-    border: 0px;
-    border-radius: 4px;
-
-    background-color: var(--moonlight);
-}
-
-table.currents th {
-    font-size: 13px;
-    text-align: left;
-    width: 20%;
-    padding: 8px;
-    color: var(--umbra)
-}
-
-table.currents td {
-    width: 80%;
-    font-size: 13px;
-    padding: 4px;
-
-    color: var(--umbra)
-}
-
-table.currents tr:hover {
-    background-color: var(--soft-blue);
-}
-
-
-table.currents th a,
-td a {
-    display: block;
-    color: var(--umbra);
-    text-decoration: none;
-}
-
-table.currents th a:hover,
-td a:hover {
-    display: block;
-    color: #000000;
-}
-
-/* Center */
-
-.outerflex>.center {
-    margin: auto;
-    padding: 8px;
-
-    width: 400px;
-    height: fit-content;
-
-    align-items: center;
-    border-radius: 2px;
-
-    background-color: var(--moonlight);
-    border-radius: 4px;
-    border: 1px var(--twilight) dotted;
-    box-shadow: 1px 1px var(--midnight);
-}
-
-
-.center>div {
-    margin: 8px;
-    padding: 16px;
-
-    border: 2px var(--midnight) solid;
-    border-radius: 4px;
-    background-image: url(../images/background/l01-bg-paper.png);
-}
-
-.center>img {
-    border-radius: 4px;
-    width: 100%;
-    margin: auto;
-}
-
-.center>.navbar {
-    display: flex;
-    flex-direction: row;
-    border-top: 0px;
-    margin: auto;
-}
-
-
-/* right  */
-
-.outerflex>.rightMenu {
-    margin: auto;
-    padding: 8px;
-
-    height: 400px;
-    width: 244px;
-
     display: flex;
     flex-direction: column;
-    row-gap: 6px;
+    gap: 8px;
 
-    background-color: var(--moonlight);
+}
+
+.contentBlock {
+    padding: 8px 0px 8px 0px;
+    font-size: 12px;
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
     border-radius: 4px;
-    border: 1px var(--twilight) dotted;
-    box-shadow: 1px 1px var(--midnight);
+
 }
 
-.rightMenu>.almanac {
+.contentFlex {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.contentFlex>div {
     padding: 8px;
+    font-size: 12px;
     border-radius: 2px;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: var(--night);
+    border: 1px ridge var(--twilight);
+    border-radius: 4px;
 
-    background-image: url(/../images/winterAlmanac/clipboard.png);
-    background-size: 62%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.rightMenu p {
-    color: black;
-    text-align: center;
+.flexBox {
+    display: flex;
+    flex-direction: column;
 }
 
-.sprite {
-    display: block;
-    width: 40%;
-    margin: auto auto auto auto;
-}
-
-.rightMenu>.blinkies {
-    margin-top: 24px;
-    padding: 12px 8px;
-
+.flexBox>div {
+    margin-top: 2px;
     border-radius: 2px;
-    border-top: 1px dotted var(--gris);
+    box-sizing: border-box;
+}
 
-    background-color: transparent;
+.currentHead {
+    font-size: 14px;
+    background-color: var(--soft-blue);
+    color: var(--night);
+    padding: 3px;
+}
 
+.currentBody {
+    font-size: 12px;
+    text-align: right;
+    color: var(--moonlight);
+    padding: 4px;
+}
+
+.logbookDate {
+    color: var(--soft-blue);
+}
+
+.current {
+    min-width: 35%;
+}
+
+.current h2 {
+    font-size: 2em;
+}
+
+.current a {
+    color: var(--starlight)
+}
+
+.logbook {
+    width: 100%;
 }
 
 .blinkies {

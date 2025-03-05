@@ -1,0 +1,80 @@
+.lowerContainer {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    font-family: cartosans;
+}
+
+.leftMenu {
+    height: fit-content;
+    position: sticky;
+}
+
+.navi {
+    margin: 6px;
+}
+
+.navi div {
+    margin-top: 2px;
+}
+
+.info {
+    padding-top: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: var(--moonlight);
+    text-align: center;
+}
+
+.title {
+    font-family: retro gaming;
+    line-height: 24px;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.rightContent {
+    padding: 8px;
+}
+
+.rightContent p {
+    font-family: cartosans;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+
+.rightContent h2 {
+    line-height: 12px;
+    margin: 12px 8px auto;
+    text-decoration: underline;
+    font-family: retro gaming;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.ranking {
+    margin-top: 12px;
+}
+
+.gameGallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+}
+
+.gameGallery img {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px inset var(--soft-blue);
+}
+
+.divider {
+    margin: 12px 0px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted var(--gris);
+    text-align: center;
+}

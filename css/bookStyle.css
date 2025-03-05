@@ -7,8 +7,14 @@ body {
 
 }
 
+a {
+    font-family: boska-med;
+    color: var(--night);
+    text-decoration: none;
+}
+
 a:hover {
-    color: var(--midnight);
+    color: var(--umbra);
     text-decoration: underline;
 }
 
@@ -66,6 +72,18 @@ a:hover {
 
     font-size: 15px;
     line-height: 16px;
+}
+
+.quote {
+    font-family: boska-med;
+    font-size: 15px;
+    text-align: left;
+    line-height: 18px;
+    border-left: 22px solid var(--twilight);
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px var(--twilight);
+    background-color: #ffffff2f;
 }
 
 .comments {
