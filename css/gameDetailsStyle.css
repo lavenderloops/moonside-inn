@@ -1,12 +1,30 @@
+.mainContainer {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.gameHeader {
+    font-family: motorola;
+    text-align: center;
+    color: var(--moonlight);
+    background-color: var(--twilight);
+    padding: 0px;
+
+}
+
 .lowerContainer {
     background-image: none;
     border: none;
     box-shadow: none;
     font-family: cartosans;
+    max-width: 900px;
 }
 
 .leftMenu {
     height: fit-content;
+
 }
 
 
@@ -24,6 +42,14 @@
     margin-bottom: 8px;
     color: var(--moonlight);
     text-align: center;
+
+}
+
+.info img {
+    width: 200px;
+    margin-top: 8px;
+    border-radius: 3px;
+    border: 1px black solid;
 }
 
 .title {
@@ -78,4 +104,19 @@
     padding-bottom: 6px;
     border-bottom: 1px dotted var(--gris);
     text-align: center;
+}
+
+.frame img {
+    text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    margin-top: 8px;
+    border-radius: 3px;
+    border: 1px black solid;
+}
+
+/* debug */
+.wrapper {
+    border: 1px solid red;
 }
