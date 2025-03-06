@@ -21,14 +21,6 @@ body {
     font-weight: normal;
 }
 
-.gameHeader {
-    font-family: motorola;
-    text-align: center;
-    color: var(--moonlight);
-    background-color: var(--twilight);
-    padding: 0px;
-}
-
 /*  */
 
 
