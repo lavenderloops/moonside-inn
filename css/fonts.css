@@ -83,6 +83,10 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: fairfax;
+    src: url(/fonts/mono/FairfaxHaxHD.ttf);
+}
 
 /* Sans Serif */
 

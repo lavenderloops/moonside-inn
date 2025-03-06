@@ -6,43 +6,44 @@
 }
 
 .gameHeader {
-    font-family: motorola;
-    text-align: center;
-    color: var(--moonlight);
-    background-color: var(--twilight);
-    padding: 0px;
+    background-color: var(--night);
+    padding: 12px;
+    border-radius: 4px;
+    border-bottom: 1px solid var(--twilight);
+    box-sizing: border-box;
+}
 
+.gameHeader h1 {
+    font-family: motorola;
+    text-align: right;
+    font-size: 32px;
+    color: var(--moonlight);
 }
 
 .lowerContainer {
     background-image: none;
     border: none;
     box-shadow: none;
-    font-family: cartosans;
+    gap: 24px;
+    font-family: fairfax;
     max-width: 900px;
 }
 
 .leftMenu {
     height: fit-content;
-
-}
-
-
-.navi {
-    margin: 6px;
-}
-
-.navi div {
-    margin-top: 2px;
+    border: none;
 }
 
 .info {
-    padding-top: 12px;
-    line-height: 16px;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
     margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px ridge rgb(26, 15, 36);
+    box-shadow: 1px 1px black;
+    background-color: var(--umbra);
     color: var(--moonlight);
-    text-align: center;
-
 }
 
 .info img {
@@ -53,13 +54,47 @@
 }
 
 .title {
+    margin-top: 4px;
     font-family: motorola;
+    font-size: 18px;
     line-height: 24px;
+    text-align: center;
 }
 
 .date {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
+    text-align: center;
+}
+
+.review {
+    margin: auto;
+    max-width: 180px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.navi {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 16px;
+    border-top: 1px dotted var(--gris);
+    border-bottom: 1px dotted var(--gris);
+}
+
+.navi div {
+    margin: auto;
+    color: var(--moonlight);
+    text-align: left;
+    max-width: 180px;
+}
+
+.navi h2, h3, h4 {
+    color: var(--moonlight);
+    font-family: motorola;
+    text-align: center;
 }
 
 .rightContent {
@@ -67,20 +102,26 @@
 }
 
 .rightContent p {
-    font-family: cartosans;
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 2px;
 }
 
 .rightContent h2 {
-    line-height: 12px;
-    margin: 12px 8px auto;
     text-decoration: underline;
+    line-height: 12px;
     font-family: motorola;
     letter-spacing: 2px;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.rightContent h3 {
+    line-height: 0px;
+    margin-bottom: 0;
+}
+
+.rightContent h4 {
+    text-align: left;
 }
 
 .ranking {
@@ -106,6 +147,13 @@
     text-align: center;
 }
 
+.bigDivider {
+    margin: 12px 0px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--twilight);
+    text-align: center;
+}
+
 .frame img {
     text-align: center;
     text-align: center;
@@ -117,6 +165,3 @@
 }
 
 /* debug */
-.wrapper {
-    border: 1px solid red;
-}
