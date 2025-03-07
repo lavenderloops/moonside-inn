@@ -100,7 +100,6 @@ a:hover {
 .book {
     display: flex;
     border-bottom: 1px dotted var(--gris);
-
 }
 
 .frame img {
