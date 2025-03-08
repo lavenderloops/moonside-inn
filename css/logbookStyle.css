@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: fantasquesans;
+    font-family: fairfax;
     letter-spacing: 1px;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .tab a {
     color: var(--gris);
-    font-family: fantasquesans;
+    font-family: fairfax;
     font-size: 12px;
     margin: 4px 8px;
     text-decoration: none;

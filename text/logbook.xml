@@ -1,10 +1,18 @@
 <table class="logbook">
+    <!-- <tr>
+        <th>Date</th>
+        <td>
+            Entry 
+        </td>
+    </tr> -->
+<!-- past entries -->
     <tr>
-    <th>03.06.25</th>
-    <td>
-        figured out a way to update content from a seperate doc using AJAX!
-    </td>
+        <th>03.06.25</th>
+        <td>
+            figured out a way to update content from a seperate doc using AJAX!
+        </td>
     </tr>
+
     <tr>
         <th>03.04.25</th>
         <td>added a
