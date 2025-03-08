@@ -29,11 +29,13 @@ h1 {
     gap: 12px;
     font-family: fairfax;
     max-width: 900px;
+    min-width: 320px;
 }
+
 
 .leftMenu {
     height: fit-content;
-    border: none;
+    border:none;
 }
 
 .info {
@@ -49,7 +51,7 @@ h1 {
 }
 
 .info img {
-    width: 200px;
+    width: 100%;
     margin-top: 8px;
     border-radius: 3px;
     border: 1px black solid;
@@ -89,7 +91,7 @@ h1 {
 .navi {
     position: sticky;
     top: 0;
-    width: 100%;
+    min-width: 100%;
     margin: auto; 
 }
 
@@ -137,7 +139,6 @@ h1 {
 }
 
 .rightContent h3 {
-    line-height: 0px;
     margin-bottom: 0;
 }
 
@@ -151,8 +152,9 @@ h1 {
 
 .gameGallery {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 8px;
+    justify-content: center;
 }
 
 .gameGallery img {
@@ -218,6 +220,9 @@ h1 {
     margin: 36px 28px;
 }
 
+#resources h4 {
+    margin-left: 0px;
+}
 #resources h5 {
     font-size: 14px;
     margin-bottom: -4px;

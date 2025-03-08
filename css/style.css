@@ -92,7 +92,7 @@ a:hover {
 .header p {
     text-align: right;
     color: var(--moonlight);
-    font-family: fantasquesans;
+    font-family: fairfax;
     font-size: 14px;
 }
 
@@ -148,7 +148,7 @@ a:hover {
     margin: 4px;
     padding: 3px;
     border-bottom: 1px dotted #7f879654;
-    font-family: fantasquesans;
+    font-family: fairfax;
     font-size: 14px;
     text-align: left;
     color: var(--moonlight)
@@ -156,7 +156,7 @@ a:hover {
 
 .rightContent {
     color: var(--moonlight);
-    font-family: fantasquesans;
+    font-family: fairfax;
     padding: 2px;
     width: 100%;
     overflow: auto;
