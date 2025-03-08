@@ -1,0 +1,58 @@
+/* Persona 5 Style */
+#P5R {
+    background-image: url(/images/games/p5r/p5-bg1.jpg);
+}
+
+.wrapper {
+    background-color: #110101;
+    border-radius: 4px;
+    box-shadow: 4px 4px black;
+    color: white;
+}
+
+.gameHeader {
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.leftMenu {
+    background-color: #0e010180;
+}
+
+.info {
+    border: 1px solid white;
+    background-color: #470607;
+}
+
+.details {
+    background-color: #110101;
+}
+.navi div {
+    background-color: #690c0c;
+}
+
+.bigDivider {
+    border-bottom: 2px solid white;
+}
+
+.gameGallery img {
+    border: 1px solid #ba0303;
+}
+
+#resources li {
+    border-left: 1px solid #ba0303;
+}
+
+.rightContent {
+    border: 1px ridge #ba0303;
+}
+
+#spoiler:hover {
+    background-color: #110101 ;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #ba0303;
+    color: white;
+}
