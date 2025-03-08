@@ -12,3 +12,15 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 } 
+
+function loadLogbook() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("logbook").innerHTML =
+    this.responseText;
+  }
+  xhttp.open("GET", "logbook.xml");
+  xhttp.send();
+}
+
+loadLogbook()
