@@ -6,6 +6,13 @@
         </td>
     </tr> -->
 <!-- past entries -->
+<tr>
+        <th>03.09.2025</th>
+        <td>
+            set up <a href="https://github.com/biancarosa/lastfm-last-played">@biancarosa</a>'s last.fm API, so current song is actually current! 
+        </td>
+    </tr>
+
     <tr>
         <th>03.06.25</th>
         <td>
