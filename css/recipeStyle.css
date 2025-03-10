@@ -1,5 +1,6 @@
 body {
     background-image: url(/images/background/gingham-bl.png);
+    font-family: boska;
 }
 
 .lowerContainer {
@@ -41,8 +42,24 @@ body {
 .recipeBook {
     box-sizing: border-box;
     padding: 12px;
-    border: 1px solid blue;
+    
     width: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+
+.recipeGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.recipeGrid > div {
+    border: 1px solid blue;
+    margin: auto;
+    padding: 8px;
+}
+
+.foodLabel {
+    text-align: center;
 }
