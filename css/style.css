@@ -231,6 +231,10 @@ a:hover {
     color: var(--starlight)
 }
 
+#music a {
+    color: var(--moonlight)
+}
+
 .logbook {
     width: 100%;
     max-height: 300px;
@@ -274,11 +278,11 @@ table.logbook td {
     font-weight: normal;
     border-bottom: 1px inset #7f87963f;
     text-align: left;
-   }
+}
 
 table.logbook tr:hover {
     background-color: #162f406c;
-  }
+}
 
 table.logbook th a {
     color: var(--starlight);
@@ -295,8 +299,7 @@ table.logbook td a:hover {
 }
 
 ul {
-    list-style-image: url(images/moonStar.png);
-    background-color: #0f111459;
+    list-style-image: url(/images/icons/moonStar.png);
     padding: 8px;
     margin: 4px;
     border-radius: 4px;

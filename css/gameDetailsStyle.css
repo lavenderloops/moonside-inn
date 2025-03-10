@@ -77,10 +77,12 @@ h1 {
     border-top: 1px solid var(--gris);
     border-bottom: 1px solid var(--gris);
 }
+
 #rating img {
     width: 50%;
     border: none;
 }
+
 .review {
     margin: 8px auto;
     max-width: 180px;
