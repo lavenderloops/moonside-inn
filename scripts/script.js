@@ -26,3 +26,16 @@ function loadLogbook() {
 }
 
 loadLogbook()
+
+// lastfm loader
+{
+  let user = 'harperka';
+  let url = 'https://crossorigin.me/https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+  let song = document.querySelector('#song');
+  fetch(url)
+    .then(function (response) {
+      return response.json()
+    }).then(function (json) {
+      song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+    });
+}

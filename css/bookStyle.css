@@ -208,3 +208,28 @@ a:hover {
     padding-left: 8px;
     width: 100%;
 }
+
+.progressBar {
+    box-sizing: content-box;
+    height: 16px;
+    margin: 8px auto;
+    width: 40%;
+
+    padding: 2px;
+    background-color: var(--moonlight);
+    border-radius: 4px;
+    border: 1px ridge var(--midnight);
+    box-shadow: 1px 1px var(--soft-blue);
+
+    font-family: switzer;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.progressBar > span {
+    display: block;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: var(--baby-blue);
+}
