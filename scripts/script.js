@@ -30,7 +30,7 @@ loadLogbook()
 // lastfm loader
 {
   let user = 'harperka';
-  let url = 'https://crossorigin.me/https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+  let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
   let song = document.querySelector('#song');
   fetch(url)
     .then(function (response) {
