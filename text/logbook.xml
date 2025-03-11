@@ -9,7 +9,7 @@
 <tr>
         <th>03.09.2025</th>
         <td>
-            set up <a href="https://github.com/biancarosa/lastfm-last-played">@biancarosa</a>'s last.fm API, so current song is actually current! 
+            set up <a href="https://github.com/biancarosa/lastfm-last-played">@biancarosa</a>'s last.fm API, so current song is (hopefully) actually current! 
         </td>
     </tr>
 

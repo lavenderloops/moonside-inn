@@ -18,11 +18,17 @@
 html {
     scrollbar-color: var(--midnight) var(--umbra);
     scrollbar-width: thin;
+    cursor: url(http://media.tumblr.com/tumblr_ma87yyYp7E1qid2nw.png), url(http://media.tumblr.com/tumblr_ma87yyYp7E1qid2nw.png), auto;
 }
 
 body {
     background-image: url(/../images/background/diamond-bg.png);
-    color: var(--umbra)
+    color: var(--umbra);
+    
+}
+
+button {
+    cursor: url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), auto;
 }
 
 h1,
@@ -45,13 +51,16 @@ h2 {
 a {
     color: var(--moonlight);
     text-decoration: none;
+    cursor: url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), auto;
 }
+
 
 
 a:hover {
     text-decoration: underline;
     color: #d7e4fa;
 }
+
 
 /* _ */
 

@@ -24,11 +24,13 @@ a:hover {
     margin: auto;
     padding: 24px;
     max-width: 800px;
+    min-width: 320px;
 }
 
 .innerContainer {
     background-image: url(../images/background/j06-bg-cloth.png);
     width: 100%;
+    
     display: flex;
     flex-direction: column;
 
@@ -56,9 +58,8 @@ a:hover {
 }
 
 .left {
-    
     text-align: center;
-    width: 40%;
+    width: 100%;
     padding: 4px;
     box-sizing: border-box;
     margin: auto;
@@ -113,7 +114,7 @@ a:hover {
     text-align: center;
     box-sizing: border-box;
     width: 150px;
-    margin-top: 8px;
+    margin: 8px auto;
     border-radius: 3px;
     border: 1px black solid;
 }
