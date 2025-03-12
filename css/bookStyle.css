@@ -253,3 +253,15 @@ ul {
     border-bottom: 1px dotted var(--gris);
     margin: 8px 28px; 
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px
+}
+
+.gallery img {
+    width: 100%;
+    border: 1px solid var(--gris);
+    border-radius: 4px;
+}
