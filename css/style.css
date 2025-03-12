@@ -31,6 +31,7 @@ button {
     cursor: url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), auto;
 }
 
+
 h1,
 h2,
 h3 {
@@ -53,7 +54,6 @@ a {
     text-decoration: none;
     cursor: url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), auto;
 }
-
 
 
 a:hover {
@@ -125,12 +125,11 @@ a:hover {
 .leftMenu {
     display: flex;
     flex-direction: column;
-    min-width: 120px;
-    padding: 8px;
 
     background-color: var(--night);
     border: 1px ridge var(--twilight);
     border-radius: 4px;
+    height: fit-content;
 
 }
 
@@ -140,12 +139,16 @@ a:hover {
     color: #e9f0fc;
     font-size: 15px;
     line-height: 24px;
+    
 }
 
-.naviation {
+.navigation {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-evenly;  
+    padding: 6px;
+    margin: auto;
+    max-width: 80%;
 }
 
 .navigation>h2 {
@@ -155,12 +158,14 @@ a:hover {
 
 .navigation>div {
     margin: 4px;
-    padding: 3px;
-    border-bottom: 1px dotted #7f879654;
+    padding: 4px 12px;
+    border-bottom: 1px dotted var(--gris);
     font-family: fairfax;
     font-size: 14px;
-    text-align: left;
-    color: var(--moonlight)
+    text-align: center;
+    color: var(--moonlight);
+    
+    
 }
 
 .rightContent {
@@ -176,7 +181,7 @@ a:hover {
 }
 
 .contentBlock {
-    padding: 8px 0px 8px 0px;
+    padding: 8px 2px;
     font-size: 12px;
     background-color: var(--night);
     border: 1px ridge var(--twilight);
@@ -190,6 +195,31 @@ a:hover {
     width: 100%;
 }
 
+@media (max-width: 680px) {
+    .contentFlex {
+        flex-direction: column;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+
+    .blinkies {
+        flex-wrap: wrap;
+    }
+
+    .blinkies img {
+        width: 100%;
+    }
+
+    .lowerContainer {
+        display: flex;
+        flex-direction: column;
+    }
+           
+}
+
 .contentFlex>div {
     padding: 8px;
     font-size: 12px;
@@ -199,7 +229,6 @@ a:hover {
     background-color: var(--night);
     border: 1px ridge var(--twilight);
     border-radius: 4px;
-
 }
 
 .flexBox {
@@ -246,17 +275,19 @@ a:hover {
 
 .logbook {
     width: 100%;
-    max-height: 300px;
+    max-height: 320px;
     overflow: auto;
+    box-sizing: border-box;
 }
 
 .blinkies {
+    padding: 2px 4px;
     margin: auto;
     position: center;
+    display: flex;
 }
 
 .blinkies>img {
-    display: inline-block;
     width: 20%;
 }
 

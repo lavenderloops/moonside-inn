@@ -59,7 +59,7 @@ a:hover {
 
 .left {
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     padding: 4px;
     box-sizing: border-box;
     margin: auto;
@@ -220,7 +220,7 @@ a:hover {
     box-sizing: content-box;
     height: 16px;
     margin: 8px auto auto;
-    width: 40%;
+    width: 50%;
     background-color: rgb(229, 230, 253);
     border-radius: 2px;
     
