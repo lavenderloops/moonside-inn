@@ -1,0 +1,68 @@
+body#spring {
+    --sage: #889f9b;
+    --grass: #324d35;
+}
+
+body {
+    background-image: none;
+    background-color: var(--sage);
+    scrollbar-color: var(--grass);
+}
+
+p, h1, h2, h3, h4 {
+    margin: 4px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+/* lace border 
+border-width: 10px;
+border-style: solid;
+border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round; */
+
+.wrapper {
+    width: 800px;
+    margin-left: 0;
+
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round;
+    
+}
+
+.flex {
+    display: flex;
+    gap: 2px;
+    min-width: 320px;
+    max-height: 420px;
+    margin: 2px;
+
+    font-family: fairfax;
+    text-align: justify;
+}
+
+.flex img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 1px 1px #324d3557;
+}
+
+.content1, .content2, .content3 {
+    background-color: white;
+    min-width: 110px;
+    width: 100%;
+    padding: 4px;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px dashed var(--grass);
+}
+
+.content3 {
+    overflow: hidden;
+}
