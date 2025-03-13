@@ -199,9 +199,14 @@ a:hover {
     gap: 8px;
     width: 100%;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     max-height: 360px;
 =======
 <<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
+=======
 =======
     
 >>>>>>> Stashed changes
@@ -231,6 +236,9 @@ a:hover {
     }
            
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
@@ -284,9 +292,12 @@ a:hover {
 .current {
     min-width: 35%;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    
 =======
 <<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
@@ -295,14 +306,27 @@ a:hover {
     
 }
 
+<<<<<<< Updated upstream
+=======
+=======
+    
+}
+
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 .logbook {
     width: 100%;
     overflow: auto;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     box-sizing: border-box;
 =======
 <<<<<<< Updated upstream
+=======
+    box-sizing: border-box;
+    max-height: 360px;
+>>>>>>> Stashed changes
+=======
 =======
     box-sizing: border-box;
     max-height: 360px;
@@ -312,6 +336,9 @@ a:hover {
 .logbook a:hover {
     line-height: 0px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
