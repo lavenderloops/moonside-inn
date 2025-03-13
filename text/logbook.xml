@@ -7,6 +7,12 @@
     </tr> -->
 <!-- past entries -->
 <tr>
+    <th>03.12.2025</th>
+    <td>
+        added a <a href="theias-almanac/spring.html">spring journal!</a>
+    </td>
+</tr>
+<tr>
         <th>03.09.2025</th>
         <td>
             set up <a href="https://github.com/biancarosa/lastfm-last-played">@biancarosa</a>'s last.fm API, so current song is (hopefully) actually current! 
