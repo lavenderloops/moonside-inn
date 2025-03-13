@@ -198,7 +198,13 @@ a:hover {
     display: flex;
     gap: 8px;
     width: 100%;
+<<<<<<< Updated upstream
     max-height: 360px;
+=======
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 680px) {
@@ -224,6 +230,10 @@ a:hover {
         flex-direction: column;
     }
            
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 .contentFlex>div {
@@ -273,18 +283,38 @@ a:hover {
 
 .current {
     min-width: 35%;
+<<<<<<< Updated upstream
    
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 }
 
 
+=======
+    
+}
+
+>>>>>>> Stashed changes
 .logbook {
     width: 100%;
     overflow: auto;
+<<<<<<< Updated upstream
     box-sizing: border-box;
+=======
+<<<<<<< Updated upstream
+=======
+    box-sizing: border-box;
+    max-height: 360px;
+>>>>>>> Stashed changes
 }
 
 .logbook a:hover {
     line-height: 0px;
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 .blinkies {
