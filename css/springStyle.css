@@ -1,11 +1,16 @@
 body#spring {
     --sage: #889f9b;
     --grass: #324d35;
+    --scrub: #0f1716;
+    --old-pc: #dad3c9;
+    --terminal: #5DB654;
+    --void: #040301;
+    --alert: #e09833;
 }
 
 body {
     background-image: none;
-    background-color: var(--sage);
+    background-color: var(--void);
     scrollbar-color: var(--grass);
 }
 
@@ -17,6 +22,11 @@ p {
     font-size: 14px;
 }
 
+a {
+    color: var(--terminal);
+    font-size: 14px;;
+}
+
 
 /* lace border 
 border-width: 10px;
@@ -24,11 +34,22 @@ border-style: solid;
 border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round; */
 
 .wrapper {
-    width: 800px;
+    max-width: 800px;
     border-width: 10px;
     border-style: solid;
-    border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round;
-    
+    margin: auto;
+
+    background-color: var(--scrub);
+    border-radius: 4px;
+    border: 4px ridge var(--grass);
+    color: var(--terminal);
+    padding: 8px;
+}
+
+.months {
+    display: flex;
+    justify-content: right;
+    font-family: fairfax;
 }
 
 .flex {
@@ -44,13 +65,11 @@ border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci
 
 .flex img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 3px;
     box-shadow: 1px 1px #324d3557;
 }
 
-.content1, .content2, .content3 {
-    background-color: white;
-   
+.content {
     width: 100%;
     padding: 4px;
     overflow-y: auto;
@@ -61,4 +80,27 @@ border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci
     border: 1px dashed var(--grass);
 }
 
+.flex div {
+    border-bottom: 1px dotted var(--grass);
+}
+.footer {
+    padding: 2px 4px;
+}
 
+.footer a {
+    font-family: fairfax;
+    color: var(--terminal);
+    font-size: 14px;
+}
+
+#footerImg img {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+}
+
+#headerImg img {
+    margin: -24px auto;
+    rotate: 180deg;
+    min-width: 100%;
+}
