@@ -228,6 +228,7 @@ a:hover {
     font-family: switzer;
     font-weight: 100;
     font-size: 12px;
+    text-align: center;
 }
 
 .progressBar>span {
