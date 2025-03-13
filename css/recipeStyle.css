@@ -1,8 +1,88 @@
 body {
+<<<<<<< Updated upstream
     background-image: url(/images/background/gingham-bl.png);
     font-family: boska;
+=======
+    background-image: none;
+    background-color: antiquewhite;
+    color: black;
+>>>>>>> Stashed changes
 }
 
+.wrapper {
+    background-image: none;
+}
+
+.recipebox {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 500px;
+    
+
+    overflow-y: auto;
+    border: 1px dashed var(--gris);
+    box-shadow: 1px 1px var(--twilight);
+
+    font-family: fairfax;
+}
+
+.card h2 {
+    padding: 0;
+    font-family: fairfax;
+}
+
+.card h3, h4 {
+    text-align: left;
+    font-family: fairfax;
+}
+
+#recipe-title {
+    width: 100%;
+    background-color: var(--twilight);
+}
+
+#ingredient-img {
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ingredients {
+    width: 100%;
+}
+
+#ingredients table {
+    width: 100%;
+}
+
+#ingredients td {
+    border-bottom: 1px solid var(--twilight);
+    width: 100%;
+}
+
+#steps {
+    margin: 12px;
+}
+#steps li {
+    border-bottom: 1px solid var(--twilight);
+}
+
+#recipe-icon {
+    margin: auto;
+    background-color: white;
+}
+
+#recipe-icon img {
+    width: 100%;
+}
+/* 
 .lowerContainer {
     background-image: url(/images/background/l01-bg-paper.png);
     border-radius: 4px;
@@ -17,11 +97,11 @@ body {
     padding: 4px;
     width: 20%;
 
-    font-family: boska;
+   
 }
 
 .recipeBox h2 {
-    font-family: boska;
+    
     font-weight: bold;
     line-height: 20px;
 }
@@ -35,8 +115,7 @@ body {
 
     text-align: center;
     font-size: 16px;
-    font-family: boska;
-    font-weight: medium;
+
 }
 
 .recipeBook {
@@ -46,6 +125,7 @@ body {
     width: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
+<<<<<<< Updated upstream
 }
 
 .recipeGrid {
@@ -63,3 +143,6 @@ body {
 .foodLabel {
     text-align: center;
 }
+=======
+} */
+>>>>>>> Stashed changes
