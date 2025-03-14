@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>moonside inn - recipe book</title>
         <link rel="icon" type="image/x-icon" href="/images/icons/favicon.gif">
+        
+        
+
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/recipeStyle.css" rel="stylesheet" type="text/css" media="all">
@@ -12,112 +15,165 @@
 
     <body>
         <div class="recipebox">
-            <div class="card">
-            <div id="recipe-title">
-                <h2>chicken corn chowder</h2>
-                </div>
-                <div id="ingredient-img">
-                    <div id="ingredients">
-                        <h3>ingredients</h3>
-                        <table>
-                            <tr>
-                                <td>2 strips bacon</td>
-                            </tr>
-                            <tr><td>4 chicken thighs</td></tr>
-                            <tr><td>garlic powder</td></tr>
-                            <tr><td>dried itatlian herb mix</td></tr>
-                            <tr><td>salt</td></tr>
-                            <tr><td>1-2 tsp otdve oil</td></tr>
-                            <tr><td>3 cups chicken broth</td></tr>
-                            <tr><td>1 cup frozen corn</td></tr>
-                            <tr><td>1 large potato cut into chunks</td></tr>
-                            <tr><td>3/4 cup half and half</td></tr>
-                            <tr><td>4 oz cottage cheese (optional)</td></tr>
-                            <tr><td>1/4 cup cheddar cheese</td></tr>
-                            <tr><td>1 tbsp tomato paste</td></tr>
-                        </table>
-                    </div>
-                </div>
-                <div id="steps">
-                    <h3>steps</h3>
-                    <ol>
-                        <li>season the chicken with garlic powder, herbs, and salt</li>
-                        <li>cook the bacon in a soup pot</li>
-                        <li>remove the bacon, save the drippings and add olive oil (if needed)</li>
-                        <li>sear the chicken</li>
-                        <li>add tomato paste, cook until it turns dark red</li>
-                        <li>add broth and potato</li>
-                        <li>let simmer for 30min-1hr</li>
-                        <li>add frozen corn</li>
-                        <li>if using cottage cheese, blend half and half with cottage cheese</li>
-                        <li>stir in half and half mixture and cheddar cheese</li>
-                        <li>serve!</li>
-                    </ol>
-                </div>
-            </div>
-<<<<<<< Updated upstream
-            <div class="recipeBook">
-                <div class="recipeGrid">
-                    <div id="baking">
-                        <img src="images/food/persimmon-bread.png" alt="pixel art of persimmon bread">
-                        <div class="foodLabel">Persimmon Bread</div>
-                    </div>
-                    <div id="entree">
-                        <img src="images/food/chicken-onion.png" alt="pixel art of chicken and onion">
-                        <div class="foodLabel">Chicken + Onions</div>
-                    </div>
-                </div>
-=======
+            <div class="category" id="soup">
+                <h1>soup</h1>
+                <div class="card">
+                    <button type="button" class="collapsible">chicken corn chowder</button>
+                    <div class="content">
+                        <div id="ingredient-img">
+                            <div id="ingredients">
+                                <h3>ingredients</h3>
+                                <table>
+                                    <tr>
+                                        <td>2 strips bacon</td>
+                                    </tr>
+                                    <tr><td>4 chicken thighs</td></tr>
+                                    <tr><td>garlic powder</td></tr>
+                                    <tr><td>dried itatlian herb mix</td></tr>
+                                    <tr><td>salt</td></tr>
+                                    <tr><td>1-2 tsp olive oil</td></tr>
+                                    <tr><td>3 cups chicken broth</td></tr>
+                                    <tr><td>1 cup frozen corn</td></tr>
+                                    <tr><td>1 large potato cut into chunks</td></tr>
+                                    <tr><td>3/4 cup half and half</td></tr>
+                                    <tr><td>4 oz cottage cheese (optional)</td></tr>
+                                    <tr><td>1/4 cup cheddar cheese</td></tr>
+                                    <tr><td>1 tbsp tomato paste</td></tr>
+                                </table>
+                            </div>
+                            <div id="rightContent">
+                                <img src="images/winterAlmanac/Soup.png" alt="">
+                                <div id="thoughts">i like to serve this soup with a side ofgarlic bread or saltine crackers</div>
+                            </div>
+                        </div>
 
-            <div class="card">
-                <div id="recipe-title">
-                <h2>chicken corn chowder</h2>
-                </div>
-                <div id="ingredient-img">
-                    <div id="ingredients">
-                        <h3>ingredients</h3>
-                        <table>
-                            <tr>
-                                <td>2 strips bacon</td>
-                            </tr>
-                            <tr><td>4 chicken thighs</td></tr>
-                            <tr><td>garlic powder</td></tr>
-                            <tr><td>dried itatlian herb mix</td></tr>
-                            <tr><td>salt</td></tr>
-                            <tr><td>1-2 tsp otdve oil</td></tr>
-                            <tr><td>3 cups chicken broth</td></tr>
-                            <tr><td>1 cup frozen corn</td></tr>
-                            <tr><td>1 large potato cut into chunks</td></tr>
-                            <tr><td>3/4 cup half and half</td></tr>
-                            <tr><td>4 oz cottage cheese (optional)</td></tr>
-                            <tr><td>1/4 cup cheddar cheese</td></tr>
-                            <tr><td>1 tbsp tomato paste</td></tr>
-                        </table>
+                        <div id="steps">
+                            <h3>steps</h3>
+                            <table id>
+                                <tr>
+                                    <td>1. season the chicken with garlic powder, herbs, and salt</td>
+                                </tr>
+                                <tr>
+                                    <td>2. cook the bacon in a soup pot</td>
+                                </tr>
+                                <tr>
+                                    <td>3. remove the bacon, save the drippings and add olive oil (if needed)</td>
+                                </tr>
+                                <tr>
+                                    <td>4. sear the chicken</td>
+                                </tr>
+                                <tr>
+                                    <td>5. add tomato paste, cook until it turns dark red</td>
+                                </tr>
+                                <tr>
+                                    <td>6. add broth and potato</td>
+                                </tr>
+                                <tr>
+                                    <td>7. let simmer for 30min-1hr</td>
+                                </tr>
+                                <tr>
+                                    <td>8. add frozen corn</td>
+                                </tr>
+                                <tr>
+                                    <td>9. if using cottage cheese, blend half and half with cottage cheese</td>
+                                </tr>
+                                <tr>
+                                    <td>10. stir in half and half mixture and cheddar cheese</td>
+                                </tr>
+                                <tr>
+                                    <td>11. serve!</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <div id="steps">
-                    <h3>steps</h3>
-                    <ol>
-                        <li>season the chicken with garlic powder, herbs, and salt</li>
-                        <li>cook the bacon in a soup pot</li>
-                        <li>remove the bacon, save the drippings and add olive oil (if needed)</li>
-                        <li>sear the chicken</li>
-                        <li>add tomato paste, cook until it turns dark red</li>
-                        <li>add broth and potato</li>
-                        <li>let simmer for 30min-1hr</li>
-                        <li>add frozen corn</li>
-                        <li>if using cottage cheese, blend half and half with cottage cheese</li>
-                        <li>stir in half and half mixture and cheddar cheese</li>
-                        <li>serve!</li>
-                    </ol>
+                <div class="card">
+                    <button type="button" class="collapsible">chicken corn chowder</button>
+                    <div class="content">
+                        <div id="ingredient-img">
+                            <div id="ingredients">
+                                <h3>ingredients</h3>
+                                <table>
+                                    <tr>
+                                        <td>2 strips bacon</td>
+                                    </tr>
+                                    <tr><td>4 chicken thighs</td></tr>
+                                    <tr><td>garlic powder</td></tr>
+                                    <tr><td>dried itatlian herb mix</td></tr>
+                                    <tr><td>salt</td></tr>
+                                    <tr><td>1-2 tsp olive oil</td></tr>
+                                    <tr><td>3 cups chicken broth</td></tr>
+                                    <tr><td>1 cup frozen corn</td></tr>
+                                    <tr><td>1 large potato cut into chunks</td></tr>
+                                    <tr><td>3/4 cup half and half</td></tr>
+                                    <tr><td>4 oz cottage cheese (optional)</td></tr>
+                                    <tr><td>1/4 cup cheddar cheese</td></tr>
+                                    <tr><td>1 tbsp tomato paste</td></tr>
+                                </table>
+                            </div>
+                            <div id="rightContent">
+                                <img src="images/winterAlmanac/Soup.png" alt="">
+                                <div id="thoughts">i like to serve this soup with a side ofgarlic bread or saltine crackers</div>
+                            </div>
+                        </div>
+
+                        <div id="steps">
+                            <h3>steps</h3>
+                            <table id>
+                                <tr>
+                                    <td>1. season the chicken with garlic powder, herbs, and salt</td>
+                                </tr>
+                                <tr>
+                                    <td>2. cook the bacon in a soup pot</td>
+                                </tr>
+                                <tr>
+                                    <td>3. remove the bacon, save the drippings and add olive oil (if needed)</td>
+                                </tr>
+                                <tr>
+                                    <td>4. sear the chicken</td>
+                                </tr>
+                                <tr>
+                                    <td>5. add tomato paste, cook until it turns dark red</td>
+                                </tr>
+                                <tr>
+                                    <td>6. add broth and potato</td>
+                                </tr>
+                                <tr>
+                                    <td>7. let simmer for 30min-1hr</td>
+                                </tr>
+                                <tr>
+                                    <td>8. add frozen corn</td>
+                                </tr>
+                                <tr>
+                                    <td>9. if using cottage cheese, blend half and half with cottage cheese</td>
+                                </tr>
+                                <tr>
+                                    <td>10. stir in half and half mixture and cheddar cheese</td>
+                                </tr>
+                                <tr>
+                                    <td>11. serve!</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
                 </div>
->>>>>>> Stashed changes
+
+            <div class="category" id="snacks">
+                <h1>snacks</h1>
+            </div>
+            <div class="category" id="desserts">
+                <h1>dessert</h1>
+            </div>
+            <div class="category" id="snacks">
+                <h1>mains</h1>
+            </div>
             </div>
         </div>
-        
+    </div>
             
 
-
+<script src="/scripts/script.js"></script>
                 <!-- <h2 id="recipe title">ginger-lemon chicken soup</h2>
                 <h3>ingredients</h3>
                 <p>sorry there aren't many measurements for this one! you can't really mess up though!</p>
