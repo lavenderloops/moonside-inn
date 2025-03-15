@@ -1,201 +1,104 @@
 body {
-    background-image: none;
-    background-color: antiquewhite;
-    color: black;
+    background-image: url(/images/background/tile-bg.png);
 }
 
-.wrapper {
-    background-image: none;
-}
+.container {
 
-.recipebox {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-}
-
-@media (max-width: 400px) {
-    .recipebox {
-        flex-direction: column;
-    }
-}
-
-.category {
+    max-width: 800px;
+    height: fit-content;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    padding: 12px;
     gap: 8px;
-
-    min-width: 320px;
-    width: 100%;
-    max-width: 460px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-
-    min-width: 320px;
-    max-width: 460px;
-    max-height: 320px;
-
-    overflow-y: auto;
-   
-    box-shadow: 1px 1px var(--twilight);
-
-    font-family: fairfax;
-}
-
-.collapsible {
-    border: 1px solid var(--twilight);
-    border-left: 12px solid var(--twilight);
-    background-color: transparent;
-
-    width: 100%;
-    padding: 2px 4px;
-    box-sizing: border-box;
     
-    font-family: fairfax;
-    font-weight: normal;
-
-    font-size: 18px;
-    text-align: center;
+    background-image: url(/images/background/starGrid.png);
+    border-radius: 4px;
+    box-shadow: 4px 4px #00000071;
+    
 }
 
+.header {
+    border: 1px dashed #d73606;
+    
+    box-shadow: none;
 
-.collapsible:hover {
-    background-color: whitesmoke;
-    border: 1px solid var(--soft-blue)
+    font-family: jua;
+    font-size: 36px;
 }
 
-.active {
-   border-left: 1px solid var(--twilight);
+.header img {
+    margin: auto;
+    border: 0px;
+    padding-bottom: 12px;
 }
 
 .content {
-    display: none;
-    border-left: 8px solid var(--twilight);
-    /* overflow: hidden; */
+    display: flex;
+    gap: 8px;
+    font-family: dosis;   
 }
 
-.card h2 {
-    padding: 0;
-    font-family: fairfax;
-}
-
-.card h3, h4 {
-    text-align: left;
-    font-family: fairfax;
-}
-
-#recipe-title {
-    width: 100%;
-    background-color: var(--twilight);
-}
-
-#ingredient-img {
-    gap: 12px;
-    margin: 12px;
-    display: grid;
-    grid-template-columns: auto auto;
-    max-width: 420px;
-}
-
-#ingredients {
-    width: 100%;
-}
-
-#ingredients table {
-    width: 100%;
-}
-
-#ingredients td {
-    border-bottom: 1px solid var(--twilight);
-    width: 100%;
-}
-
-#rightContent {
-    width: 100%;
-    height: 50%;
-    margin-left: 12px;
-    
-    display: flex; 
-    flex-direction: column;
-}
-
-#rightContent img {
-    display: block;
-    margin: auto;
-}
-
-#rightContent div {
-    margin-top: 12px;
-    padding: 8px;
-    border-top: 1px dotted red;
-}
-
-#thoughts {
-    font-style: italic;
-}
-
-#steps {
-    margin: 12px;
-}
-
-#steps td {
-    border-bottom: 1px solid var(--twilight);
-}
-
-#recipe-icon {
-    margin: auto;
-    background-color: white;
-}
-
-#recipe-icon img {
-    width: 100%;
-}
-
-/* 
-.lowerContainer {
-    background-image: url(/images/background/l01-bg-paper.png);
+.sidebar {
+    border: 1px dashed #d73606;
     border-radius: 4px;
-    border: 8px double var(--sunset);
-    gap: 24px;
-}
 
-.recipeBox {
     display: flex;
     flex-direction: column;
+    min-width: 30%;
     gap: 4px;
     padding: 4px;
-    width: 20%;
-
-   
+    background-color: var(--night);
 }
 
-.recipeBox h2 {
-    
+.sidebar > div {
+    background-color: #ffd392;
+    padding: 2px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.sidebar > .menuHeader {
+    color: var(--moonlight);
+    font-size: 20px;
     font-weight: bold;
-    line-height: 20px;
-}
-
-.recipeBox button {
     background-color: transparent;
-    padding: 2px 12px;
-
-    border: none;
-    border-bottom: 1px solid black;
-
+    border: 0px;
     text-align: center;
-    font-size: 16px;
-
+    margin: 4px 0;
 }
 
-.recipeBook {
-    box-sizing: border-box;
+.recipeSelect {
+    background-color: #ffd392;
+    padding: 2px;
+    text-align: left;
+    font-family: dosis;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 0px;
+    color: black;
+}
+
+.recipeSelect:hover, .active {
+    background-color: #d73606;
+    color: var(--moonlight);
+}
+
+.rightContent {
+    border: 1px dashed #d73606;
+    border-radius: 4px;;
+    max-width: 100%;
+    background-color: var(--night);
+}
+
+.footer {
+    border: 1px dashed #d73606;
+    border-radius: 4px;
     padding: 12px;
+
+    background-color: var(--night);
     
-    width: 100%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-} */
+    font-family: fairfax;
+    color: var(--moonlight)
+}

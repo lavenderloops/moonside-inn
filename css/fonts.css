@@ -25,6 +25,16 @@
     src: url(/fonts/display/retroGaming.ttf);
 }
 
+@font-face {
+    font-family: kulture;
+    src: url(/fonts/display/kulture.otf);
+}
+
+@font-face {
+    font-family: saint;
+    src: url(/fonts/display/saint.ttf);
+}
+
 /* Monospace */
 
 @font-face {
@@ -130,6 +140,16 @@
     src: url(/fonts/sans/Switzer-Bold.woff);
     font-weight: bold;
     font-style: normal;
+}
+
+@font-face {
+    font-family: jua;
+    src: url(/fonts/sans/Jua-Regular.ttf);
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(/fonts/sans/Dosis-VariableFont_wght.ttf);
 }
 
 /* Serif */
