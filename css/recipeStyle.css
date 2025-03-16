@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-
     max-width: 800px;
     height: fit-content;
     margin: auto;
@@ -15,7 +14,6 @@ body {
     background-image: url(/images/background/starGrid.png);
     border-radius: 4px;
     box-shadow: 4px 4px #00000071;
-    
 }
 
 .header {
@@ -101,4 +99,117 @@ body {
     
     font-family: fairfax;
     color: var(--moonlight)
+}
+
+/* individual recipe pages */
+
+.recipe {
+    background-image: url(/images/background/l01-bg-paper.gif);
+
+    font-family: dosis;
+    font-size: 14px;
+}
+
+.recipeTitle, .sectionHeader {
+    font-family: jua;
+    font-size: 26px;
+    text-align: center;
+
+    border-top: 1px solid var(--midnight);
+    border-bottom: 1px solid var(--midnight);
+    background-color: #ffffff48;
+}
+
+.topCard {
+    display: flex;
+    gap: 12px;
+}
+
+.recipeImg {
+    border: 1px dashed var(--midnight);;
+    display: block;
+    width: 40%;
+    background-color: #ffffff9f;
+    max-height: fit-content;
+}
+
+.recipeImg img {
+    width: 100%;;
+}
+
+.right {
+    
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    padding: 4px;
+}
+
+.right > div {
+    padding: 4px;
+}
+
+.details {
+    display: flex;
+    gap: 12px;
+}
+
+.details > div {
+    padding-left: 12px;
+    border-left: 2px solid var(--soft-blue);
+}
+
+.sectionHeader {
+    font-size: 20px;
+}
+
+.ingredientsNeeded {
+    display: flex;
+    
+}
+
+.ingredientsNeeded table {
+    width: 100%;
+}
+
+.ingredientsNeeded td{
+    max-width: 10%;
+    font-weight: 500;
+    border-bottom: 1px dotted var(--soft-blue);
+}
+
+.instructionsBox {
+    display: flex;
+    gap: 6px;
+    overflow: auto;
+    max-width: 100%
+}
+
+.step {
+    flex-shrink: 0;
+    width: 10em;
+
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.stepNumber {
+    font-family: jua;
+    font-size: 16px;
+}
+.stepIcon {
+    width: 50%;
+    margin: 8px auto;
+    border-radius: 8px;
+
+    border: 1px dashed var(--soft-blue);
+    box-shadow: 1px 1px var(--night);
+}
+
+.stepIcon > img {
+    width: 100%;
 }

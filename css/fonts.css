@@ -152,6 +152,11 @@
     src: url(/fonts/sans/Dosis-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: miso;
+    src: url();
+}
+
 /* Serif */
 
 @font-face {
