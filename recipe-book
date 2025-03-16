@@ -26,6 +26,7 @@
                     <a href="recipes/coming-soon.html" target="recipeBox" class="recipeSelect">&#10084 spiced persimmon cake</a>
                 </div>
                 <div class="rightContent" id="recipeBox">
+                    <!-- make a page to go here on pg load -->
                     <iframe src="" name="recipeBox" frameborder="0" height="500"></iframe>
                 </div>
             </div>
@@ -35,3 +36,5 @@
         </div>
         <script src="/scripts/script.js"></script>
     </body>
+
+    
