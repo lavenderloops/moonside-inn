@@ -6,23 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>moonside inn - books</title>
         <link rel="icon" type="image/x-icon" href="/images/icons/favicon.gif">
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
         <link href="/css/bookStyle.css" rel="stylesheet" type="text/css" media="all">
     </head>
 
     <body>
         <div class="mainContainer">
-            <div class="header">
-                <a href="index.html"> return home</a>
-            </div>
-            
-
             <div class="innerContainer">
-                   
-                  <div style="border-bottom: 1px solid var(--midnight);" class="progressBar">
-                            <span style="width: 30%; border-bottom: 1px solid var(--midnight);"><b>reading goal</b>: 4/12</span>
-                        </div>
+                <div style="border-bottom: 1px solid var(--midnight);" class="progressBar">
+                    <span style="width: 30%; border-bottom: 1px solid var(--midnight);"><b>reading goal</b>: 4/12</span>
+                </div>
+
                 <div class="book" id="">
                     <div class="left">
                         <div class="frame">
@@ -33,6 +28,29 @@
                             <div class="title">The Great Hunt (1990)</div>
                             <div class="author">Robert Jordan</div>
                             <div class="date">03.15.25</div>
+                            <div class="progressBar">
+                                <span style="width: 0%">0%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <div class="comments">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis natus, explicabo praesentium consequuntur soluta tempora quibusdam. Magnam dolore molestias laboriosam! Atque in ipsa deleniti perferendis, esse quos officiis ipsam?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book" id="">
+                    <div class="left">
+                        <div class="frame">
+                            <img src="/images/books/your-utopia.png">
+                        </div>
+
+                        <div class="info">
+                            <div class="title">Your Utopia</div>
+                            <div class="author">Bora Chung</div>
+                            <div class="date">03.17.25</div>
                             <div class="progressBar">
                                 <span style="width: 0%">0%</span>
                             </div>
@@ -199,22 +217,15 @@
                     <div class="tbr">
                         <div>
                             <div class="info">
+                                <div class="title">Glitch Feminism (2020)</div>
+                                <div class="author">Legacy Russell</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="info">
                                 <div class="title">Fledgling (2005)</div>
                                 <div class="author">Octavia Butler</div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="info">
-                                <div class="title">Bride (2024)</div>
-                                <div class="author">Ali Hazelwood</div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="info">
-                                <div class="title">Your Utopia (2021)</div>
-                                <div class="author">Bora Chung</div>
                             </div>
                         </div>
 
@@ -229,13 +240,6 @@
                             <div class="info">
                                 <div class="title">Parable of the Sower (1993)</div>
                                 <div class="author">Octavia Butler</div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="info">
-                                <div class="title">The Great Hunt (1990)</div>
-                                <div class="author">Robert Jordan</div>
                             </div>
                         </div>
 
@@ -271,10 +275,12 @@
                         </div>
                     </div>
                 </div>
-                </div>
-
             </div>
+        </div>
             <script src="scripts/script.js"></script>
-        </body>
+
+        <div class="footer">
+            <a href="index.html">return home</a>
+        </div>
     </body>
 </html>
