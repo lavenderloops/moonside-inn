@@ -23,7 +23,7 @@ p {
 }
 
 a {
-    color: var(--terminal);
+    color: var(--old-pc);
     font-size: 14px;;
 }
 
@@ -83,13 +83,19 @@ border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci
 .flex div {
     border-bottom: 1px dotted var(--grass);
 }
+
 .footer {
     padding: 2px 4px;
 }
 
+.faded {
+    opacity: .4;
+    line-height: 8px;
+}
+
 .footer a {
     font-family: fairfax;
-    color: var(--terminal);
+    color: var(--old-pc);
     font-size: 14px;
 }
 

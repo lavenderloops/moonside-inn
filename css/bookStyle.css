@@ -37,24 +37,18 @@ a:hover {
     box-shadow: 5px 5px rgba(22, 1, 1, 0.521);
 }
 
-.header {
-    position: sticky;
-    top: 0px;
+.footer {
+    margin-top: 8px;
+    padding: 2px 8px;
     width: 100%;
 
     background-image: url(../images/background/j06-bg-cloth.png);
-    border: 1px dotted var(--gris);
-
-
-    font-family: boska;
-    font-weight: normal;
-    
-    font-size: 16px;
-    padding-left: 18px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-bottom: 4px;
     box-sizing: border-box;
+}
+
+.footer a {
+    font-family: fairfax;
+    font-weight: 200;
 }
 
 .left {
