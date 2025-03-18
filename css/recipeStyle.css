@@ -8,11 +8,13 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    padding: 16px;
     gap: 8px;
     
-    background-image: url(/images/background/starGrid.png);
+    
     border-radius: 4px;
+
+    background-image: url(/images/background/starGrid.png);
     box-shadow: 4px 4px #00000071;
 }
 
@@ -23,6 +25,7 @@ body {
 
     font-family: jua;
     font-size: 36px;
+    background-image: url(/images/background/j06-bg-cloth.png);
 }
 
 .header img {
@@ -43,10 +46,10 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-width: 30%;
+    min-width: 25%;
     gap: 4px;
     padding: 4px;
-    background-color: var(--night);
+    background-image: url(/images/background/j06-bg-cloth.png);
 }
 
 .sidebar > div {
@@ -58,7 +61,7 @@ body {
 }
 
 .sidebar > .menuHeader {
-    color: var(--moonlight);
+    color: var(--night);
     font-size: 20px;
     font-weight: bold;
     background-color: transparent;
@@ -87,7 +90,8 @@ body {
     border: 1px dashed #d73606;
     border-radius: 4px;;
     max-width: 100%;
-    background-color: var(--night);
+    background-image: url(/images/background/l01-bg-paper.png);
+    
 }
 
 .footer {
@@ -95,16 +99,16 @@ body {
     border-radius: 4px;
     padding: 12px;
 
-    background-color: var(--night);
+    background-image: url(/images/background/j06-bg-cloth.png);
     
     font-family: fairfax;
-    color: var(--moonlight)
+    color: var(--night)
 }
 
 /* individual recipe pages */
 
 .recipe {
-    background-image: url(/images/background/l01-bg-paper.gif);
+    background-image: url(/images/background/l01-bg-paper.png);
 
     font-family: dosis;
     font-size: 14px;
