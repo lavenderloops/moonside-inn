@@ -149,7 +149,7 @@ a:hover {
     box-shadow: 3px 3px black;
 }
 
-.content {
+.contentContainer {
     color: var(--moonlight);
     font-family: fairfax;
     padding: 2px;

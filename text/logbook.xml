@@ -7,6 +7,13 @@
     </tr> -->
 <!-- past entries -->
 <tr>
+    <th>03.19.2025</th>
+    <td>
+        made a button and added some neighbors XD 
+    </td>
+</tr>
+
+<tr>
     <th>03.12.2025</th>
     <td>
         added a <a href="theias-almanac/spring.html">spring journal!</a>
@@ -22,7 +29,7 @@
     <tr>
         <th>03.06.25</th>
         <td>
-            figured out a way to update content from a seperate doc using AJAX!
+            figured out a way to update content from a seperate doc using AJAX! <a href="extras/ajax-tut.html">(here's the script i used)</a>
         </td>
     </tr>
 

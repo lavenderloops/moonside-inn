@@ -67,6 +67,11 @@ a:hover {
     overflow-y: auto;
     max-height: 300px;
     box-sizing: border-box;
+    color: var(--night);
+}
+
+.right p {
+    line-height: 16px;
 }
 
 .quote {
@@ -182,6 +187,7 @@ a:hover {
 
 .content {
     display: none;
+    color: var(--night);
     /* overflow: hidden; */
 }
 
