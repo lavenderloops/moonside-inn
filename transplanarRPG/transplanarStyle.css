@@ -3,5 +3,61 @@ body {
 }
 
 .quote {
+    font-family: liga;
+    font-size: 36px;
+    text-align: center;
+    padding: 24px;
+}
+
+.header {
+    font-family: liga;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: red;
+    text-align: center;
+}
+
+
+.navigation>div {
+    color: black;
+    font-family: inclusive;
+    border: 1px solid red;
     
+}
+
+.contentFlex>div {
+    background-color: white;
+    border: none;
+}
+
+.contentFlex img {
+    border: 1px solid red;
+    max-width: 30%;
+    margin: auto;
+}
+
+.contentContainer {
+    border: 4px solid red;
+}
+
+.bodyText {
+    color: black;
+
+    font-family: inclusive;
+    font-weight: normal;   
+    font-size: 14px;
+    text-align: justify;
+    padding: 24px;
+
+    max-height: 600px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.bodyText strong {
+    color: red;
+    font-family: liga;
+    font-size: 15px;
 }
