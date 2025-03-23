@@ -25,6 +25,11 @@
     src: url(/fonts/display/retroGaming.ttf);
 }
 
+@font-face {
+    font-family: heal-web;
+    src: url(/fonts/display/HealTheWebB-Regular.otf);
+}
+
 /* Monospace */
 
 @font-face {
