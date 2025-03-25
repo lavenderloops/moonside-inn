@@ -6,15 +6,29 @@ a {
     color: #5FDDF8
 }
 
+h1 {
+    line-height: 38px;
+}
+
+.bodyText h2 {
+    margin-top: 24px;
+}
+
+.bodyText h3 {
+    text-align: left;
+    border-bottom: 1px dotted var(--gris);
+}
 .quote {
-    font-family: liga;
-    font-size: 36px;
+    font-family: heal-web;
+    font-size: 32px;
     text-align: center;
     padding: 24px;
+    color: #eaa2b9;
+    text-shadow: 2px 2px var(--gris)
 }
 
 .header {
-    font-family: liga;
+    font-family: heal-web;
     font-size: 24px;
     background-color: transparent;
     border: none;
@@ -26,12 +40,21 @@ a {
 .navigation {
     gap: 12px;
     align-items: center;
-}
-.navigation>div {
-    font-family: inclusive;
     
 }
 
+.navigation>div {
+    font-family: inclusive;
+    border: 0px;
+}
+
+@media (max-width: 680px) {
+    .navigation {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+}
 .contentFlex {
     border: 4px ridge black;
     box-shadow: 2px 2px black;
@@ -51,7 +74,7 @@ a {
 }
 
 .bodyContainer {
-    /* max-height: 380px; */
+    max-height: 600px;
     overflow-y: auto;
     border: 1px inset black;
     background-color: rgba(0, 0, 0, 0.397);
@@ -62,7 +85,7 @@ a {
 .bodyText {
     font-family: inclusive;
     font-weight: normal;   
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
     padding: 24px;
    
@@ -71,40 +94,61 @@ a {
 
 .bodyText strong {
     color: #eaa2b9;
-    font-family: liga;
-    font-size: 15px;
+    font-family: heal-web;
+    font-size: 14px;
 }
 
 
 .castGallery {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
     align-items: baseline;
-    justify-items: stretch;
+    justify-items: center;
+    justify-content: center;
+    font-family: inclusive;
 }
 
-.castGallery>div {
-    border-bottom: 1px dashed var(--baby-blue);
-    width: 100%;
+@media (max-width: 620px) {
+    .castGallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .castFrame {
-    width: 100%;
-    font-size: 18px;
-}
+    min-width: 80%;
+    max-width: 80%;
+    margin-bottom: 12px;
 
+    font-size: 14px;
+}
 
 
 .castFrame img {
     width: 100%;
     border-radius: 4px;
-    border: 1px dotted #5FDDF8;
-    display: block;
     margin-bottom: 12px;
 }
 
 .castFrame strong {
     color: #eaa2b9;
-    font-size: 20px; 
+    font-size: 16px; 
+}
+
+.castFrame .weak {
+    color: var(--gris);
+    font-size: 12px;
+}
+
+.divider {
+    border-bottom: 4px solid var(--shade);
+}
+
+.links {
+    
+}
+
+.links >div {
+    
+    padding: 8px;
 }
