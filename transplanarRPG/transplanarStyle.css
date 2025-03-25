@@ -75,23 +75,18 @@ a {
     font-size: 15px;
 }
 
-.row {
-    display: flex;
-}
+
 .castGallery {
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 8px;
     align-items: baseline;
-    justify-items: stretch; */
-
-    display: flex;
-    flex-direction: column;
+    justify-items: stretch;
 }
 
 .castGallery>div {
     border-bottom: 1px dashed var(--baby-blue);
-    max-width: 100%;
+    width: 100%;
 }
 
 .castFrame {
