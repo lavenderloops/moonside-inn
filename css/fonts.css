@@ -137,6 +137,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: liga;
+    src: url(/fonts/sans/LigaSans-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inclusive;
+    src: url(/fonts/sans/InclusiveSans-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inclusive;
+    src: url(/fonts/sans/InclusiveSans-Bold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inclusive;
+    src: url(/fonts/sans/InclusiveSans-Light.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 /* Serif */
 
 @font-face {
