@@ -10,6 +10,11 @@ h1 {
     line-height: 38px;
 }
 
+.wrapper {
+    margin-top: 180px;
+    max-width: 1000px;
+}
+
 .bodyText h2 {
     margin-top: 24px;
 }
@@ -74,7 +79,7 @@ h1 {
 }
 
 .bodyContainer {
-    max-height: 900px;
+    max-height: 700px;
     overflow-y: auto;
     border: 1px inset black;
     background-color: rgba(0, 0, 0, 0.397);
