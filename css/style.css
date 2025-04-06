@@ -71,7 +71,8 @@ a:hover {
     box-shadow: 3px 3px black;
     width: 100%;
     box-sizing: border-box;
-
+    
+    color: var(--moonlight)
 }
 
 .header img {
@@ -305,4 +306,49 @@ ul {
     border-radius: 4px;
     font-size: 12px;
     line-height: 16px;
+<<<<<<< Updated upstream
+=======
+}
+
+.neighbors {
+    padding: 2px 4px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.blinkies {
+    padding: 2px 4px;
+    margin: auto;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.blinkies>img {
+    width: 15%;
+}
+
+
+.siteButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.siteButton a{
+    margin: auto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar a {
+    font-size: 14px;
+>>>>>>> Stashed changes
 }

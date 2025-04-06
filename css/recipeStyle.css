@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     height: fit-content;
     margin: auto;
     display: flex;
@@ -20,7 +20,7 @@ body {
 
 .header {
     border: 1px dashed #d73606;
-    
+    color: var(--night)
     box-shadow: none;
 
     font-family: jua;
@@ -47,9 +47,11 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 25%;
+    max-height: 580px;
     gap: 4px;
     padding: 4px;
     background-image: url(/images/background/j06-bg-cloth.png);
+    overflow-y: auto;
 }
 
 .sidebar > div {
@@ -58,6 +60,15 @@ body {
     text-align: left;
     font-size: 14px;
     border-radius: 2px;
+}
+
+.sidebar a {
+    color: var(--night)
+}
+
+.sidebar h2, h3 {
+    font-family: dosis;
+    color: var(--night);
 }
 
 .sidebar > .menuHeader {
