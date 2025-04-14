@@ -10,6 +10,10 @@
     color: white;
 }
 
+.contentFlex>div {
+    background-color: #110101;
+    border: 1px ridge #690c0c;
+}
 .gameHeader {
     border-bottom: 1px solid white;
     background-color: transparent;
@@ -56,3 +60,4 @@
     background-color: #ba0303;
     color: white;
 }
+

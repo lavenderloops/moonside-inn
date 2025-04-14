@@ -23,8 +23,6 @@ html {
 
 body {
     background-image: url(/../images/background/diamond-bg.png);
-    color: var(--umbra);
-    
 }
 
 button {
@@ -37,15 +35,6 @@ h2,
 h3 {
     font-family: heal-web;
     text-align: center;
-}
-
-h1 {
-    font-size: 42px;
-    line-height: 4px;
-}
-
-h2 {
-    font-size: 24px;
     line-height: 4px;
 }
 
@@ -60,6 +49,15 @@ a:hover {
     color: #fefeff;
     text-decoration: underline;
     line-height: 18px;
+}
+
+ul {
+    list-style-image: url(/images/icons/moonStar.png);
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 @media (max-width: 680px) {
@@ -143,15 +141,16 @@ a:hover {
     padding: 8px;
     margin-top: 8px;
     border-radius: 4px;
-    gap: 8px;
+
     background-image: url(../images/background/starGrid.png);
     border: 1px ridge var(--twilight);
     box-shadow: 3px 3px black;
-}
 
-.contentContainer {
     color: var(--moonlight);
     font-family: fairfax;
+}
+
+.colContainer {
     padding: 2px;
     width: 100%;
     overflow: auto;
@@ -160,21 +159,18 @@ a:hover {
     gap: 8px;
 }
 
-
 .contentBox {
     background-color: var(--night);
     border: 1px ridge var(--twilight);
     border-radius: 4px;
     height: fit-content;
     padding: 8px 16px;
-    
 }
 
 .contentFlex {
     display: flex;
     gap: 8px;
     width: 100%;
-
 }
 
 .contentFlex>div {
@@ -326,15 +322,6 @@ table.logbook td a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-image: url(/images/icons/moonStar.png);
-    padding: 8px;
-    margin: 4px;
-    border-radius: 4px;
-    font-size: 12px;
-    line-height: 16px;
-}
-
 .neighbors {
     padding: 2px 4px;
     margin: auto;
@@ -355,7 +342,6 @@ ul {
 .blinkies>img {
     width: 15%;
 }
-
 
 .siteButton {
     display: flex;
