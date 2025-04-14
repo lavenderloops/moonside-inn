@@ -1,0 +1,222 @@
+<div class="frame">
+    <div class="cover">
+            <img src="/music/album-covers/twelve-spells.png" alt="">
+    </div>
+    <div class="album">
+        
+        <div class="title">
+            12 Little Spells
+        </div>
+        <div class="artist">
+            Esperanza Spalding
+        </div>
+        <div class="year">
+            2018
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/solstice.png" alt="">
+        </div>
+        <div class="title">
+            A Very Lonely Solstice
+        </div>
+        <div class="artist">
+            Fleet Foxes
+        </div>
+        <div class="year">
+            2021
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/am.png" alt="">
+        </div>
+        <div class="title">
+            AM
+        </div>
+        <div class="artist">
+            Arctic Monkeys
+        </div>
+        <div class="year">
+            2013
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/ctrl.png" alt="">
+        </div>
+        <div class="title">
+           Ctrl
+        </div>
+        <div class="artist">
+            SZA
+        </div>
+        <div class="year">
+            2017
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/empath.png" alt="">
+        </div>
+        <div class="title">
+           empathogen
+        </div>
+        <div class="artist">
+            WILLOW
+        </div>
+        <div class="year">
+            2024
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/fleet.png" alt="">
+        </div>
+        <div class="title">
+           Fleet Foxes
+        </div>
+        <div class="artist">
+            Fleet Foxes
+        </div>
+        <div class="year">
+            2008
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/igor.png" alt="">
+        </div>
+        <div class="title">
+           IGOR
+        </div>
+        <div class="artist">
+            Tyler,the Creator
+        </div>
+        <div class="year">
+            2019
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/ratatat.png" alt="">
+        </div>
+        <div class="title">
+           Ratatat
+        </div>
+        <div class="artist">
+            Ratatat
+        </div>
+        <div class="year">
+            1999
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/mother.png" alt="">
+        </div>
+        <div class="title">
+           Mother
+        </div>
+        <div class="artist">
+            Cleo Sol
+        </div>
+        <div class="year">
+            2021
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/romantico.png" alt="">
+        </div>
+        <div class="title">
+           romantico
+        </div>
+        <div class="artist">
+            800 Cherries
+        </div>
+        <div class="year">
+            1999
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/ruby.png" alt="">
+        </div>
+        <div class="title">
+           Ruby
+        </div>
+        <div class="artist">
+            JENNIE
+        </div>
+        <div class="year">
+            2025
+        </div>
+    </div>
+</div>
+
+<div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="/music/album-covers/stereo.png" alt="">
+        </div>
+        <div class="title">
+           Stereo Type A
+        </div>
+        <div class="artist">
+            Cibo Matto
+        </div>
+        <div class="year">
+            2006
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="frame">
+    <div class="album">
+        <div class="cover">
+            <img src="" alt="">
+        </div>
+        <div class="title">
+           
+        </div>
+        <div class="artist">
+            
+        </div>
+        <div class="year">
+            
+        </div>
+    </div>
+</div> -->
