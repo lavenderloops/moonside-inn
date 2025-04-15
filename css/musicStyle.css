@@ -17,6 +17,10 @@ body {
     font-family: fairfax;
 }
 
+body#inner {
+   background-color: var(--night);
+}
+
 h1 {
     color: var(--moonlight);
     line-height: 0px;
@@ -28,19 +32,16 @@ p {
 }
 
 a {
-    font-size: 12px;
+    font-size: 16px;
     color: #cdd9ee93;
-    font-family: fantasquesans;
     text-decoration: none;
 
 }
 
 a:hover {
-    font-size: 12px;
+    font-size: 17px;
     color: #cdd9eeec;
-    font-family: fantasquesans;
     text-decoration: underline;
-
 }
 
 /* layout */
@@ -56,28 +57,41 @@ a:hover {
 
 .contentFlex {
     gap: 2px;
-    
+    background-color: var(--night);
 }
 
 .contentFlex>div {
     border-radius: 0px;
     border: 0px;
+    background-color: transparent;
 }
 
 /* playlist explorer */
 
 table.playlistExplorer {
-  color: var(--moonlight);
   text-align: left;
-  padding: 0 4px;
-  min-width: 140px;
+  min-width: 160px;
+  color: var(--moonlight);
+}
+
+table.playlistExplorer tr {
+    height: 48px;
+}
+
+table.playlistExplorer td {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: normal;
+    border-left: 1px solid var(--gris);
+    border-bottom: 1px dotted var(--gris);
+    
 }
 
 table.playlistExplorer th {
-    font-size: 18px;
-    font-weight: normal;
-    border-bottom: 1px solid var(--gris);
-    width: 100%;
+    font-family: fairfax;
+    font-size: 14px;
+    border-bottom: 1px dotted var(--gris);
+    padding: 12px;
 }
 
 /* album grid */
@@ -85,9 +99,12 @@ table.playlistExplorer th {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 800px;
     color: var(--moonlight);
-    overflow-y: auto;
+}
+
+.rightContent {
+    width: 100%;
+    padding: 0;
 }
 
 #playlistTitle{
@@ -98,7 +115,7 @@ table.playlistExplorer th {
 .albumGrid {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 8px;
+    gap: 4px;
 }
 
 
@@ -106,7 +123,7 @@ table.playlistExplorer th {
     .header {
         align-items: center;
     }
-
+    
     .albumGrid {
         grid-template-columns: auto;
         margin: auto;
@@ -122,7 +139,7 @@ table.playlistExplorer th {
     border-radius: 4px;
     border: 1px solid var(--umbra);
     padding: 12px;
-    width: 200px;
+    width: 190px;
     /* display: flex;
     gap: 8px;
     align-items: center; */
@@ -164,4 +181,31 @@ table.playlistExplorer th {
 
 .rating img {
     width: 100%;
+}
+
+/* --- */
+/* Tracklist */
+
+table.tracklist {
+    width: 100%;
+}
+
+table.tracklist tr:nth-child(odd) {
+    background-color: var(--umbra);
+}
+
+table.tracklist td {
+    padding: 8px;
+    width: fit-content;
+    border: 0px;
+}
+
+td.track {
+    text-align: center;
+    max-width: 10%;
+}
+
+table.tracklist th {
+    padding: 4px;
+    text-align: left;
 }

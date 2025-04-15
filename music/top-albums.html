@@ -12,16 +12,13 @@
 
     </head>
 
-    <body>
-        <div class="wrapper">
+    <body id="inner">
+        <div class="wrapper" style="width: 100%; margin: auto;">
             <div class="contentContainer">
                 <div class="playlistContainer">
                     <div class="contentFlex" style="align-items: center; border-bottom: 1px dashed var(--gris);">
-                        <!-- <div class="cover" style="width: 10%;">
-                            <img src="album-covers/top.png">
-                        </div> -->
-                         <div id="playlistTitle">playlist title</div>
-                         <div><p>description</p></div>
+                         <div id="playlistTitle">top albums</div>
+                         <div><p>These are my current 4.5 - 5 star albums</p></div>
                     </div>
                     <div class="albumGrid" id="albums">
                     </div>
@@ -40,8 +37,7 @@
                     document.getElementById("albums").innerHTML =
                     this.responseText;
                 }
-                // change this to file name
-                xhttp.open("GET", "/text/top-albums.xml"); 
+                xhttp.open("GET", "/text/top-albums.xml");
                 xhttp.send();
             }
             loadAlbums()

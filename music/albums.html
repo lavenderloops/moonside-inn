@@ -20,30 +20,33 @@
             <div class="contentFlex">
                 <div>
                     <table class="playlistExplorer">
+                        <tr><th>choose a playlist</th></tr>
                         <tr>
-                            <th>top albums</th>
+                            <td><a href="top-albums.html" target="playlistBox">top albums</a></td>
                         </tr>
                         <tr>
-                            <th>frosty breaks</th>
+                            <td><a href="frosty-breaks.html" target="playlistBox">frosty breaks</a></td>
                         </tr>
                         <tr>
-                            <th>mission secrete</th>
+                            <td><a href="secret-mission.html" target="playlistBox">mission secrete</a></td>
                         </tr>
                         <tr>
-                            <th>winter 2025</th>
+                            <td><a href="winter25.html" target="playlistBox">winter 2025</a></td>
                         </tr>
                     </table>
                 </div>
-                <div class="playlistContainer">
+
+                <div class="rightContent" id="playlistBox">
+                    <iframe src="top-albums.html" name="playlistBox" frameborder="0" width ="100%" height="660"></iframe>
+                </div>
+
+                <!-- <div class="playlistContainer">
                     <div class="contentFlex" style="align-items: center; border-bottom: 1px dashed var(--gris);">
-                        <!-- <div class="cover" style="width: 10%;">
-                            <img src="album-covers/top.png">
-                        </div> -->
                          <div id="playlistTitle">top albums</div>
                          <div><p>These are my current 4.5 - 5 star albums</p></div>
                     </div>
                     <div class="albumGrid" id="albums">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
