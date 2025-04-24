@@ -63,7 +63,6 @@ a:hover {
 .contentFlex>div {
     border-radius: 0px;
     border: 0px;
-    background-color: transparent;
 }
 
 /* playlist explorer */
@@ -72,17 +71,17 @@ table.playlistExplorer {
   text-align: left;
   min-width: 160px;
   color: var(--moonlight);
+  margin: auto;
 }
 
 table.playlistExplorer tr {
-    height: 48px;
+
 }
 
 table.playlistExplorer td {
-    padding: 12px;
+    padding: 6px;
     font-size: 18px;
     font-weight: normal;
-    border-left: 1px solid var(--gris);
     border-bottom: 1px dotted var(--gris);
     
 }
@@ -128,6 +127,7 @@ table.playlistExplorer th {
         grid-template-columns: auto;
         margin: auto;
     }
+
 
 
 }
