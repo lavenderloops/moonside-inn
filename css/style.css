@@ -163,7 +163,7 @@ ul {
     background-color: var(--night);
     border: 1px ridge var(--twilight);
     border-radius: 4px;
-    height: fit-content;
+   
     padding: 8px 16px;
 }
 
@@ -351,4 +351,14 @@ table.logbook td a:hover {
 
 .siteButton a{
     margin: auto;
+}
+
+.guestbook {
+    background: transparent url(/images/icons/guestbook.png) center no-repeat;
+    height: 60px;
+    display: block;
+}
+
+.guestbook:hover {
+    background-image: url(/images/icons/guestbook-hover.png);
 }
