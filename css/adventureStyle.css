@@ -15,3 +15,8 @@
 .contentBox {
     align-content: stretch;
 }
+
+.logContainer
+{
+    width: 100%;
+}
