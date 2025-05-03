@@ -1,0 +1,17 @@
+.colContainer {
+    overflow: hidden
+}
+.center {
+    margin: auto;
+    display: block;
+}
+
+.flexBox > div {
+    background-color: var(--shade);
+    color: var(--moonlight);
+    font-family: inclusive;
+}
+
+.contentBox {
+    align-content: stretch;
+}
