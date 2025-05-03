@@ -1,0 +1,37 @@
+.scrapbook {
+    height: 900px;
+    width: 800px;
+    margin: auto;
+}
+
+.scrapbookFlex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.scrapbookFlex > div {
+    padding: 4px;
+}
+
+.sb-img:hover {
+    rotate: 6deg;
+    width: 105%;
+
+}
+
+.sb-img {
+    width: 100%;
+}
+
+
+.content {
+    font-family: fairfax;
+    text-align: center;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-bottom: 2px dotted var(--midnight);
+    border-left: 2px dotted var(--midnight);
+    border-radius: 36px;
+    /* display: none; */
+}

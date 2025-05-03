@@ -1,3 +1,5 @@
+// hover text
+
 // collapsible button
 
 var coll = document.getElementsByClassName("collapsible");
