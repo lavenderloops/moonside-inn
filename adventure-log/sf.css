@@ -2,6 +2,8 @@
     height: 900px;
     width: 800px;
     margin: auto;
+    /* display: grid;
+    grid-template-columns: auto auto; */
 }
 
 .scrapbookFlex {
@@ -12,16 +14,21 @@
 
 .scrapbookFlex > div {
     padding: 4px;
+    margin: auto;
+}
+
+.sb-img {
+    width: 80%;
 }
 
 .sb-img:hover {
     rotate: 6deg;
-    width: 105%;
-
 }
 
-.sb-img {
-    width: 100%;
+
+
+.sb-img rect {
+    border-radius: 4px;
 }
 
 
@@ -29,9 +36,14 @@
     font-family: fairfax;
     text-align: center;
     font-size: 18px;
+    padding: 4px;
     background-color: aliceblue;
     border-bottom: 2px dotted var(--midnight);
     border-left: 2px dotted var(--midnight);
     border-radius: 36px;
     /* display: none; */
+}
+
+.content:hover {
+    rotate: -2deg;
 }
