@@ -6,19 +6,26 @@
     grid-template-columns: auto auto; */
 }
 
+
 .scrapbookFlex {
     display: flex;
     flex-direction: column;
-    width: 50%;
+
+    padding: 8px;
+
+    width: 100%;
+    border: 1px solid blue;
 }
 
 .scrapbookFlex > div {
     padding: 4px;
     margin: auto;
+    border: 1px solid red;
+    
 }
 
 .sb-img {
-    width: 80%;
+    margin: auto;
 }
 
 .sb-img:hover {
