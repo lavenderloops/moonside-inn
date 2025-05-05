@@ -1,4 +1,13 @@
-// hover text
+// sticker hover
+var dino = document.getElementById("dino");
+
+dino.addEventListener("mouseover", function () {
+  dino.src = "images/dino-1.png";
+});
+
+dino.addEventListener("mouseout", function () {
+  dino.src = "images/dino.png";
+});
 
 // collapsible button
 
