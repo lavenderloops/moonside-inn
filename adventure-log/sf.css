@@ -44,7 +44,7 @@
 
 .scrapbookGrid .item {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
 
 .scrapbookGrid .item1 {
@@ -63,7 +63,7 @@
 }
 .scrapbookGrid .caption{
     grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-end: 6;
 }
 
 .scrapbookGrid .entry{
