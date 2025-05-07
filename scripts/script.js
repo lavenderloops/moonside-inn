@@ -23,7 +23,7 @@ function loadLogbook() {
     document.getElementById("logbook").innerHTML =
       this.responseText;
   }
-  xhttp.open("GET", "text/logbook.xml");
+  xhttp.open("GET", "text/logbook.xhtml");
   xhttp.send();
 }
 
