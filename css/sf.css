@@ -1,0 +1,165 @@
+body {
+    background-image: none;
+    color: black;
+    font-family: inclusive;
+}
+
+.header {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.header > h1 {
+    color: black;
+    text-align: center;
+    font-family: gemini;
+}
+
+.lowerContainer {
+    background-image: none;
+    border: 1px solid red;
+    box-shadow: none;
+}
+
+.rowContainer {
+    border: 1px solid blue;
+}
+
+.rowContainer > div {
+    border: 2px dotted black;
+}
+
+.contentBox {
+    background-color: transparent;
+}
+
+.contentFlex {
+    background-color: transparent;
+}
+
+.contentFlex > div {
+    background-color: transparent;
+    border: 1px dotted pink;
+}
+
+.window {
+  border: 4px solid blue;  
+}
+
+.contentFlex > .details {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.details h3 {
+    font-family: inclusive;
+    line-height: 12px;
+}
+/* planner */
+
+.planner {
+    display: flex;
+    /* border: 1px solid blue; */
+    gap: 8px;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.planner > div {
+    width: 100%;
+}
+
+/* date button */
+
+.date {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+}
+
+.date:hover {
+    border: 1px solid black;
+}
+
+.date > div {
+    min-width: 32px;
+    padding: 8px;
+    border: 1px dotted black;
+    font-weight: 600;
+}
+
+.date > .day {
+    background-color: pink;
+    font-weight: 300;
+}
+
+/* content */
+
+.content {
+    border: 1px solid blue;
+    min-height: 500px;
+}
+
+/* responsive bits */
+
+@media (max-width: 500px) {
+    .contentFlex {
+        flex-direction: column;
+    }    
+
+    .planner {
+        flex-wrap: wrap;
+    }
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 8px;
+}
+
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 7;
+}

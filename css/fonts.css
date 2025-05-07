@@ -1,5 +1,8 @@
 /* Display */
-
+@font-face {
+    font-family: gemini;
+    src: url(/fonts/display/Gemini-Regular.woff);
+}
 @font-face {
     font-family: zelda;
     src: url(/fonts/display/breathOfZelda.otf);
