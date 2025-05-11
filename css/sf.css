@@ -1,7 +1,8 @@
 body {
     background-image: none;
-    color: black;
-    font-family: inclusive;
+    background-color: var(--night);
+    color: var(--moonlight);
+    font-family: fairfax;
 }
 
 .header {
@@ -11,23 +12,21 @@ body {
 }
 
 .header > h1 {
-    color: black;
     text-align: center;
-    font-family: gemini;
+    font-family: fairfax;
 }
 
 .lowerContainer {
     background-image: none;
-    border: 1px solid red;
     box-shadow: none;
 }
 
 .rowContainer {
-    border: 1px solid blue;
+
 }
 
 .rowContainer > div {
-    border: 2px dotted black;
+
 }
 
 .contentBox {
@@ -40,24 +39,50 @@ body {
 
 .contentFlex > div {
     background-color: transparent;
-    border: 1px dotted pink;
+    border: 1px dotted var(--moonlight);
 }
 
 .window {
-  border: 4px solid blue;  
+   
 }
 
 .contentFlex > .details {
     display: flex;
     flex-direction: column;
-    min-width: 120px;
-    max-width: 120px;
+    min-width: 160px;
+    padding: 16px;
 }
 
 .details h3 {
-    font-family: inclusive;
-    line-height: 12px;
+    font-family: fairfax;
+    font-size: 15px;
+    line-height: 14px;
+    border-bottom: 1px solid var(--gris);
 }
+
+.details h4 {
+    text-align: center;
+    line-height: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+    border-bottom: 1px dotted var(--gris);
+}
+
+.arrival {
+    border: 1px solid var(--starlight);
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.departure {
+    border: 1px solid var(--baby-blue);
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center; 
+}
+
 /* planner */
 
 .planner {
@@ -66,6 +91,7 @@ body {
     gap: 8px;
     justify-content: space-around;
     overflow: auto;
+    
 }
 
 .planner > div {
@@ -79,28 +105,29 @@ body {
     background-color: transparent;
     border: none;
     padding: 2px;
+    font-family: fairfax;
 }
 
 .date:hover {
-    border: 1px solid black;
+    border: 1px solid var(--starlight);
 }
 
 .date > div {
-    min-width: 32px;
     padding: 8px;
-    border: 1px dotted black;
+    border: 1px dotted var(--moonlight);
     font-weight: 600;
+    color: var(--moonlight);
 }
 
 .date > .day {
-    background-color: pink;
+    background-color: var(--baby-blue);
     font-weight: 300;
+    color: var(--night);
 }
-
 /* content */
 
 .content {
-    border: 1px solid blue;
+    border: 1px inset var(--shade);
     min-height: 500px;
 }
 
@@ -114,52 +141,9 @@ body {
     .planner {
         flex-wrap: wrap;
     }
+
+    contentFlex > .details {
+        flex-wrap: wrap;
+    }
 }
 
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    gap: 8px;
-}
-
-.div1 {
-    grid-row: span 2 / span 2;
-}
-
-.div2 {
-    grid-column-start: 1;
-    grid-row-start: 3;
-}
-
-.div3 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
-    grid-column-start: 2;
-    grid-row-start: 1;
-}
-
-.div4 {
-    grid-row: span 2 / span 2;
-    grid-row-start: 4;
-}
-
-.div5 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 1;
-    grid-row-start: 6;
-}
-
-.div6 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
-    grid-column-start: 2;
-    grid-row-start: 4;
-}
-
-.div7 {
-    grid-column: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 7;
-}
