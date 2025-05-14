@@ -152,7 +152,6 @@ ul {
 }
 
 .colContainer {
-    padding: 2px;
     width: 100%;
     overflow: auto;
     display: flex;
@@ -170,7 +169,7 @@ ul {
 
 .contentFlex {
     display: flex;
-    gap: 8px;
+    gap:8px;
     width: 100%;
 }
 
@@ -181,7 +180,7 @@ ul {
     box-sizing: border-box;
     padding: 8px;
     background-color: var(--night);
-    border: 1px ridge var(--twilight);
+    border: 1px dotted var(--twilight);
     border-radius: 4px;
 
 }
@@ -362,4 +361,22 @@ table.logbook td a:hover {
 
 .guestbook:hover {
     background-image: url(/images/icons/guestbook-hover.png);
+}
+
+.linkButton {
+    background-color: var(--midnight);
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 4px;
+}
+
+
+.newIcon {
+    width: 25%; 
+    margin-top: 12px;
+}
+
+.newIcon:hover {
+    border: 1px ridge hotpink;
+    width: 26%;
 }

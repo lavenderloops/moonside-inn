@@ -9,6 +9,7 @@ a {
 a:hover {
     color: var(--soft-blue)
 }
+
 .container {
     max-width: 800px;
     height: fit-content;
@@ -24,6 +25,7 @@ a:hover {
     background-image: url(/images/background/starGrid.png);
     box-shadow: 4px 4px #00000071;
 }
+
 
 .header {
     border: 1px dashed #d73606;
@@ -45,6 +47,12 @@ a:hover {
     display: flex;
     gap: 8px;
     font-family: dosis;   
+}
+
+
+
+.rightContent #recipeBox {
+    width: 1000px;
 }
 
 .sidebar {
