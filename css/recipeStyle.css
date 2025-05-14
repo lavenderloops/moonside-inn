@@ -130,6 +130,8 @@ a:hover {
 
     font-family: dosis;
     font-size: 14px;
+
+    min-width: 320px;
 }
 
 .recipeTitle, .sectionHeader {
@@ -179,7 +181,7 @@ a:hover {
 .details {
     display: flex;
     gap: 12px;
-    justify-content: center;
+    align-items: center;
 }
 
 .details > div {
@@ -198,6 +200,7 @@ a:hover {
 
 .ingredientsNeeded table {
     width: 100%;
+    padding: 12px;
 }
 
 .ingredientsNeeded td{
@@ -224,7 +227,7 @@ a:hover {
     width: 10em;
 
     text-align: center;
-    padding: 8px;
+    padding: 12px;
     font-weight: 600;
 }
 
@@ -242,5 +245,15 @@ a:hover {
 }
 
 .stepIcon > img {
+    width: 100%;
+}
+
+.cardBody {
+    max-width: 100%;
+    
+}
+
+.cardBody table {
+    padding: 12px;
     width: 100%;
 }
