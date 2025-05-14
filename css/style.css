@@ -104,7 +104,8 @@ ul {
     box-shadow: 3px 3px black;
     width: 100%;
     box-sizing: border-box;
-
+    
+    color: var(--moonlight)
 }
 
 .header img {
