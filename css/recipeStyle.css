@@ -46,13 +46,11 @@ a:hover {
 .content {
     display: flex;
     gap: 8px;
-    font-family: dosis;   
+    font-family: dosis; 
 }
 
-
-
-.rightContent #recipeBox {
-    width: 1000px;
+.content > .frame {
+    width: 100%;
 }
 
 .sidebar {
@@ -187,8 +185,6 @@ a:hover {
 }
 
 .details {
-    display: flex;
-    gap: 12px;
     align-items: center;
 }
 
@@ -264,4 +260,12 @@ a:hover {
 .cardBody table {
     padding: 12px;
     width: 100%;
+}
+
+.cardBody table td {
+    border-bottom: 1px solid var(--midnight);
+}
+
+.cardBody table th {
+    text-align: left;
 }
