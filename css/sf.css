@@ -132,7 +132,7 @@ h2 {
 
 .content {
     border: 1px inset var(--shade);
-    min-height: 500px;
+    min-height: 800px;
     
     background-image: url(/adventure-log/images/background.png);
     background-repeat:repeat;
