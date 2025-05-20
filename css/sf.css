@@ -24,13 +24,13 @@ h2 {
     box-shadow: none;
 }
 
-.rowContainer {
+/* .rowContainer {
 
 }
 
 .rowContainer > div {
 
-}
+} */
 
 .contentBox {
     background-color: transparent;
@@ -148,9 +148,9 @@ h2 {
     gap: 12px;
 }
 
-.entry > div{
+/* .entry > div{
  
-}
+} */
 
 .entry img {
     width: 100%;
