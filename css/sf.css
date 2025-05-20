@@ -129,6 +129,44 @@ body {
 .content {
     border: 1px inset var(--shade);
     min-height: 500px;
+    background-image: url(/adventure-log/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* content grid */
+.entry {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 20px auto;
+    gap: 8px;
+}
+
+.entry > div{
+}
+
+.entry img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.entry .text {
+    background-color: var(--moonlight);
+    color: var(--night);
+    padding: 8px;
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.entry .caption {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: var(--night);
+    border: 1px dotted var(--shade);
+    padding: 0 4px;
+    text-align: center;
 }
 
 /* responsive bits */

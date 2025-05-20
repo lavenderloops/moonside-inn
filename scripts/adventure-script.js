@@ -3,7 +3,7 @@ var milkbun = document.getElementById("milkbun")
 
 milkbun.addEventListener("mouseover", function () {
     milkbun.style.transition = ("transform 0.2s ease")
-    milkbun.style.transform = "rotate(6deg) scale(.7)";
+    milkbun.style.transform = "rotate(6deg) scale(.9)";
     milkbun.src = "images/milkbun-1.png";
 })
 
