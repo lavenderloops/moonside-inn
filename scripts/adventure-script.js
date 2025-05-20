@@ -26,3 +26,5 @@ dino.addEventListener("mouseout", function () {
     dino.style.transform = "rotate(0deg)"
 });
 
+// planner buttons
+

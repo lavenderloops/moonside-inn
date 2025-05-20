@@ -15,6 +15,9 @@ body {
     text-align: center;
     font-family: fairfax;
 }
+h2 {
+    line-height: normal;
+}
 
 .lowerContainer {
     background-image: none;
@@ -35,6 +38,7 @@ body {
 
 .contentFlex {
     background-color: transparent;
+    
 }
 
 .contentFlex > div {
@@ -42,15 +46,15 @@ body {
     border: 1px dotted var(--moonlight);
 }
 
-.window {
-   
-}
-
 .contentFlex > .details {
     display: flex;
     flex-direction: column;
     min-width: 160px;
     padding: 16px;
+}
+
+.details{
+    height: fit-content;
 }
 
 .details h3 {
@@ -129,9 +133,10 @@ body {
 .content {
     border: 1px inset var(--shade);
     min-height: 500px;
+    
     background-image: url(/adventure-log/images/background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-repeat:repeat;
+    
 }
 
 /* content grid */
@@ -140,10 +145,11 @@ body {
     grid-template-columns: auto auto;
     width: 90%;
     margin: 20px auto;
-    gap: 8px;
+    gap: 12px;
 }
 
 .entry > div{
+ 
 }
 
 .entry img {
@@ -152,13 +158,14 @@ body {
 }
 
 .entry .text {
-    background-color: var(--moonlight);
+    background-color: #cdd9eee3;
     color: var(--night);
     padding: 8px;
     margin: auto;
     width: 90%;
     height: fit-content;
     border-radius: 4px;
+    box-shadow: -2px 2px var(--night);
 }
 
 .entry .caption {
@@ -167,8 +174,21 @@ body {
     border: 1px dotted var(--shade);
     padding: 0 4px;
     text-align: center;
+    border-radius: 2px;
+    box-shadow: -2px 2px var(--shade);
 }
 
+.caption ul {
+    padding-left: 12px;
+}
+
+.caption li {
+    border-left: 1px solid var(--soft-blue);
+    list-style-image: none;
+    list-style-type: none;
+    padding-left: 8px;
+    text-align: left;
+}
 /* responsive bits */
 
 @media (max-width: 500px) {
