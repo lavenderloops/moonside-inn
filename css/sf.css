@@ -1,0 +1,231 @@
+body {
+    background-image: none;
+    background-color: var(--night);
+    color: var(--moonlight);
+    font-family: fairfax;
+}
+
+.header {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.header > h1 {
+    text-align: center;
+    font-family: fairfax;
+}
+h2 {
+    line-height: normal;
+}
+
+.lowerContainer {
+    background-image: none;
+    box-shadow: none;
+}
+
+/* .rowContainer {
+
+}
+
+.rowContainer > div {
+
+} */
+
+.contentBox {
+    background-color: transparent;
+}
+
+.contentFlex {
+    background-color: transparent;
+    
+}
+
+.contentFlex > div {
+    background-color: transparent;
+    border: 1px dotted var(--moonlight);
+}
+
+.contentFlex > .details {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    padding: 16px;
+}
+
+.details{
+    height: fit-content;
+}
+
+.details h3 {
+    font-family: fairfax;
+    font-size: 15px;
+    line-height: 14px;
+    border-bottom: 1px solid var(--gris);
+}
+
+.details h4 {
+    text-align: center;
+    line-height: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+    border-bottom: 1px dotted var(--gris);
+}
+
+.arrival {
+    border: 1px solid var(--starlight);
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.departure {
+    border: 1px solid var(--baby-blue);
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center; 
+}
+
+/* planner */
+
+.planner {
+    display: flex;
+    /* border: 1px solid blue; */
+    gap: 8px;
+    justify-content: space-around;
+    overflow: auto;
+    
+}
+
+.planner > div {
+    width: 100%;
+}
+
+/* date button */
+
+.date {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+    font-family: fairfax;
+}
+
+.date:hover {
+    border: 1px solid var(--starlight);
+}
+
+.date > div {
+    padding: 8px;
+    border: 1px dotted var(--moonlight);
+    font-weight: 600;
+    color: var(--moonlight);
+}
+
+.date > .day {
+    background-color: var(--baby-blue);
+    font-weight: 300;
+    color: var(--night);
+}
+/* content */
+
+.content {
+    border: 1px inset var(--shade);
+    min-height: 800px;
+    
+    background-image: url(/adventure-log/images/background.png);
+    background-repeat:repeat;
+    
+}
+.banner {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+/* content grid */
+.entry {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 20px auto;
+    gap: 12px;
+}
+
+/* .entry > div{
+ 
+} */
+
+.entry h1, h2, h3, h4 {
+    font-family: fairfax;
+}
+
+.entry p {
+    font-size: 14px;
+}
+
+.entry img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.entry .text {
+    background-color: #cdd9eee3;
+    color: var(--night);
+    padding: 8px;
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: -2px 2px var(--night);
+}
+
+.entry .caption {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: var(--night);
+    border: 1px dotted var(--shade);
+    padding: 0 4px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: -2px 2px var(--shade);
+}
+
+.caption ul {
+    padding-left: 12px;
+}
+
+.caption li {
+    border-left: 1px solid var(--soft-blue);
+    list-style-image: none;
+    list-style-type: none;
+    padding-left: 8px;
+    text-align: left;
+}
+
+/* images */
+.center {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.center img {
+    width: 100%;
+}
+
+/* responsive bits */
+
+@media (max-width: 500px) {
+    .contentFlex {
+        flex-direction: column;
+    }    
+
+    .planner {
+        flex-wrap: wrap;
+    }
+
+    contentFlex > .details {
+        flex-wrap: wrap;
+    }
+}
+
