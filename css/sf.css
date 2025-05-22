@@ -138,7 +138,11 @@ h2 {
     background-repeat:repeat;
     
 }
-
+.banner {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
 /* content grid */
 .entry {
     display: grid;
@@ -151,6 +155,14 @@ h2 {
 /* .entry > div{
  
 } */
+
+.entry h1, h2, h3, h4 {
+    font-family: fairfax;
+}
+
+.entry p {
+    font-size: 14px;
+}
 
 .entry img {
     width: 100%;
@@ -189,6 +201,18 @@ h2 {
     padding-left: 8px;
     text-align: left;
 }
+
+/* images */
+.center {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.center img {
+    width: 100%;
+}
+
 /* responsive bits */
 
 @media (max-width: 500px) {

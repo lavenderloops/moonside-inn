@@ -26,20 +26,32 @@ dino.addEventListener("mouseout", function () {
     dino.style.transform = "rotate(0deg)"
 });
 
-// planner buttons
-// var planner = document.getElementsByClassName("planner");
-var i;
-const buttons = document.querySelectorAll('button');
+var genki = document.getElementById("genki");
+
+genki.addEventListener("mouseover", function () {
+    // genki.style.transition = "transform 0.3s ease"; // Add transition
+    // genki.style.transform = "rotate(6deg) scale(1.2)"
+    genki.src = "/adventure-log/images/genki.gif";
+});
+
+genki.addEventListener("mouseout", function () {
+    genki.src = "/adventure-log/images/genki.png";
+});
+
+// // planner buttons
+// // var planner = document.getElementsByClassName("planner");
+// var i;
+// const buttons = document.querySelectorAll('button');
 
 
-for (i = 0; i < buttons.length; i++){
-    buttons[i].addEventListener('click', function(onButtonClick) {
-        const clickedButtonId = event.target.id;
-        if (clickedButtonId === '0417') {
-            this.style.backgroundColor = "red"
-        }
-    });
-}
+// for (i = 0; i < buttons.length; i++){
+//     buttons[i].addEventListener('click', function(onButtonClick) {
+//         const clickedButtonId = event.target.id;
+//         if (clickedButtonId === '0417') {
+//             this.style.backgroundColor = "red"
+//         }
+//     });
+// }
 
 
 // for (i = 0; i < buttons.length; i++) {

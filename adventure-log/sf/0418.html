@@ -13,22 +13,127 @@
 
     <style>
         body {background-color: transparent;}
-        .soon {
-            background-color: var(--baby-blue); 
-            padding: 8px; 
-            margin: 120px auto; 
-            width: 50%; 
-            color: var(--night);
-            border-radius: 8px;
-            box-shadow: 2px 2px black;
-            border: 4px solid white;
-            rotate: -5deg;
+        .entry {
+            grid-template-columns: auto auto auto;
+            align-items: center;
         }
+
+        .span-2 {
+            grid-column: span 2 / span 2;
+        }
+
+
+        .green-apple {
+            grid-column: span 2 / span 2;
+            grid-row-start: 3;
+        }
+
+        .blindBook {
+            grid-row-start: 3;
+        }
+
     </style>
     
     <body>
-        <div class="soon">
-            <h1>coming soon!</h1>
+        <div class="banner" style="rotate: -2deg">
+            <img src="/adventure-log/images/flower-washi.png" alt="">
+        </div>
+
+        <div class="entry" id="0418">
+            <div>
+                <img src="/adventure-log/images/marin-bridge.png" alt="" style="rotate: 1deg;">
+                <div class="text">
+                    <h2>friday</h2>
+                    <p>a little hike today! we went up to marin headlands to see the wildflowers! it was So windy 🍃</p>
+                </div>
+                <img src="/adventure-log/images/genki.png" alt="" id="genki" style="width: 80%;">
+            </div>
+
+            <div class="span-2">
+                <div class="caption" style="rotate: -1deg;">
+                    <h3>day 2</h3>
+                    <ul>
+                        <li>marin headlands hike</li>
+                        <li>green apple books</li>
+                        <li>crab boil & crepes</li>
+                    </ul>
+                    <img src="/adventure-log/images/marin-lookout.png" alt="">
+                    <img src="/adventure-log/images/crab.gif" alt="" style="width: 80%;">
+                </div>
+            </div>
+
+            <div class="film-strip">
+                <div class="caption">
+                    <img src="/adventure-log/images/marin-2.png" alt="">
+                    <img src="/adventure-log/images/marin-1.png" alt="">
+                </div>
+            </div>
+            
+            <div class="doodle">
+                <div class="caption" style="padding: 4px;">
+                    <img src="/adventure-log/images/marin-drawings.png" alt="">
+                    <p>hike break to do some doodles!</p>
+                </div>
+            </div>
+
+            <div class="film-strip">
+                <div class="caption">
+                    <img src="/adventure-log/images/marin-3.png" alt="">
+                    <img src="/adventure-log/images/marin-4.png" alt="">
+                </div>
+            </div>
+
+            <div class="green-apple">
+                <div class="text">
+                    <h3>green apple books</h3>
+                    <p>love a good used bookstore! aside from the guy using the poetry room to take a business call it was quite calming after spending the day outside</p>
+                    <img src="/adventure-log/images/green-apple.png" alt="">
+                </div>
+            </div>
+
+            <div class="blindBook">
+                <div class="caption" style="rotate: 3deg; padding: 8px;" >
+                <p>decided to try out a blind date book, the description sounded pretty good! an enemies to lovers that took place in NYC!</p>
+                <img src="/adventure-log/images/green-apple1.png" alt="" id="blindBook">
+                <p>except it ended up being this random book about people in a camper van in rural oregon..?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner" style="rotate: 2deg;">
+            <img src="/adventure-log/images/flower-washi.png" alt="">
         </div>
     </body>
+
+    <script>
+        var blindBook = document.getElementById("blindBook");
+        
+        blindBook.addEventListener("mouseover", function () {
+            blindBook.style.transition = "transform 0.6 ease";
+            blindBook.style.transform = "scale(1.1) rotate(-5deg)"
+            blindBook.style.border = "2px inset var(--starlight)"
+            blindBook.src = "/adventure-log/images/randomCover.png";
+        });
+
+        blindBook.addEventListener("mouseout", function () {
+            blindBook.style.transform = "scale(1) rotate(0deg)"
+            blindBook.style.border = "0px"
+            blindBook.src = "/adventure-log/images/green-apple1.png";
+        });
+
+        // 
+        
+        var genki = document.getElementById("genki");
+
+        genki.addEventListener("mouseover", function () {
+            genki.style.transition = "transform 0.3s ease"; // Add transition
+            genki.style.transform = "rotate(6deg)"
+            genki.src = "/adventure-log/images/genki.gif";
+        });
+
+        genki.addEventListener("mouseout", function () {
+            genki.src = "/adventure-log/images/genki.png";
+            genki.style.transform = "rotate(0deg)"
+        });
+    </script>
 </html>
