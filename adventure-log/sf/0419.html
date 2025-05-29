@@ -13,22 +13,74 @@
 
     <style>
         body {background-color: transparent;}
-        .soon {
-            background-color: var(--baby-blue); 
-            padding: 8px; 
-            margin: 120px auto; 
-            width: 50%; 
-            color: var(--night);
-            border-radius: 8px;
-            box-shadow: 2px 2px black;
-            border: 4px solid white;
-            rotate: -5deg;
+
+        .entry {
+            grid-template-columns: auto auto auto;
+            align-items: center;
         }
+
+        .dimsum {
+            grid-row-start: 2;
+            grid-column: span 2 / span 2;
+        }
+
+        .blindBox {
+            grid-column: span 2 / span 2;
+        }
+
     </style>
     
     <body>
-        <div class="soon">
-            <h1>coming soon!</h1>
+        <div class="entry" id="0419">
+            <div>
+                <img src="/adventure-log/images/patio.png" alt="">
+            </div>
+
+            <div class="vertical-divider" style="rotate: 1deg;">
+            </div>
+
+            <div>
+                <div class="caption">
+                    <h4>saturday log</h4>
+                    <ul>
+                        <li>belated bday dim sum</li>
+                        <li>nap time on the patio</li>
+                        <li>mall! round 1! blind box swap!</li>
+                        <li>wii rhythm games</li>
+                    </ul>
+                </div>
+            </div>  
+            
+            <div class="dimsum">
+                <div class="caption">
+                    <img src="/adventure-log/images/dimsum.png" alt="">
+                    <p>the dim sum was SO good and we got there late so we didn't even have to order anything 😆 all of the yum with 0% of the stress hehe</p>  
+                </div>
+            </div>
+
+            <div>
+                <div class="text" style="text-align: center;">
+                    <h2>malltime!</h2>
+                    <p>peoplewatchin + windowshoppin + foodcourtsnackin</p>
+                    <img src="/adventure-log/images/mallage.png" alt="">
+                    <p>a lil collage of the bits we picked up along the way</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <div class="caption">
+                    <img src="/adventure-log/images/nat-round1.png" alt="">
+                    <img src="/adventure-log/images/round1-plushies.png" alt="">
+                </div>
+            </div>
+            <div class="blindBox">
+                <div class="caption">
+                    <p><b>blind box swaperoo</b></p>
+                    <p>we picked out blind boxes for each other to open</p>
+                </div>` 
+            </div>
+
         </div>
     </body>
 </html>
