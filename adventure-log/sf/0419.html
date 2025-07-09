@@ -77,10 +77,48 @@
             <div class="blindBox">
                 <div class="caption">
                     <p><b>blind box swaperoo</b></p>
-                    <p>we picked out blind boxes for each other to open</p>
-                </div>` 
-            </div>
+                    <p>we picked out blind boxes for each other to open, these are the ones we wanted:</p>
+                    <p>(hover to see what we actually got!)</p>
+                    <div>
+                        <img src="/adventure-log/images/bokdog.png" alt="" id="blindBoxDog">
+                    </div>
 
+                    <img src="/adventure-log/images/calico.png" alt="" id="blindBoxCat">
+                </div>
+            </div>
         </div>
+        <script>
+            var blindBoxDog = document.getElementById("blindBoxDog");
+            var blindBoxCat = document.getElementById("blindBoxCat")
+            
+            blindBoxDog.addEventListener("mouseover", function () {
+                blindBoxDog.style.transition = "transform 0.6 ease";
+                blindBoxDog.style.transform = "scale(1.1) rotate(-5deg)"
+                blindBoxDog.src = "/adventure-log/images/caulidog.png";
+            });
+    
+            blindBoxDog.addEventListener("mouseout", function () {
+                blindBoxDog.style.transform = "scale(1) rotate(0deg)"
+                blindBoxDog.style.border = "0px"
+                blindBoxDog.src = "/adventure-log/images/bokdog.png";
+            });
+
+            var blindBoxCat = document.getElementById("blindBoxCat");
+            var blindBoxCat = document.getElementById("blindBoxCat")
+            
+            blindBoxCat.addEventListener("mouseover", function () {
+                blindBoxCat.style.transition = "transform 0.6 ease";
+                blindBoxCat.style.transform = "scale(1.1) rotate(-5deg)"
+                blindBoxCat.src = "/adventure-log/images/cat-blind.png";
+            });
+    
+            blindBoxCat.addEventListener("mouseout", function () {
+                blindBoxCat.style.transform = "scale(1) rotate(0deg)"
+                blindBoxCat.style.border = "0px"
+                blindBoxCat.src = "/adventure-log/images/calico.png";
+            });
+
+            
+        </script>
     </body>
 </html>
