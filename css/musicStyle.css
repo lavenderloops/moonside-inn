@@ -12,13 +12,13 @@
 }
 
 body {
-    background-image: none;
+    background-image: url(/images/background/brick.png);
     background-color: var(--umbra);
     font-family: fairfax;
 }
 
 body#inner {
-   background-color: var(--night);
+    background-color: var(--night);
 }
 
 h1 {
@@ -46,9 +46,9 @@ a:hover {
 
 /* layout */
 
-.wrapper {
+/* .wrapper {
     
-}
+} */
 
 .header {
     box-shadow: none;

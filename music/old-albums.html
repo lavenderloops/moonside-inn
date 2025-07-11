@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>moonside inn - music explorer</title>
+        <link rel="icon" type="image/x-icon" href="/images/icons/favicon.gif">
+        <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="/css/musicStyle.css" rel="stylesheet" type="text/css" media="all">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1>music library</h1>
+            </div>
+            <div class="contentFlex">
+                <div>
+                     <!-- <img src="ipod.png" alt="" style="position: fixed;"> -->
+                    <table class="playlistExplorer">
+                        
+                        <tr><th>choose a playlist!</th></tr>
+                        <tr>
+                            <td><a href="top-albums.html" target="playlistBox">top albums</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="frosty-breaks.html" target="playlistBox">frosty breaks</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="secret-mission.html" target="playlistBox">mission secrete</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="winter25.html" target="playlistBox">winter 2025</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="rightContent" id="playlistBox">
+                    <iframe src="top-albums.html" name="playlistBox" frameborder="0" width ="100%" height="660"></iframe>
+                </div>
+
+                <!-- <div class="playlistContainer">
+                    <div class="contentFlex" style="align-items: center; border-bottom: 1px dashed var(--gris);">
+                         <div id="playlistTitle">top albums</div>
+                         <div><p>These are my current 4.5 - 5 star albums</p></div>
+                    </div>
+                    <div class="albumGrid" id="albums">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            function loadAlbums() {
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function () {
+                    document.getElementById("albums").innerHTML =
+                    this.responseText;
+                }
+                xhttp.open("GET", "/text/top-albums.xml");
+                xhttp.send();
+            }
+            loadAlbums()
+        </script>
+    </body>
