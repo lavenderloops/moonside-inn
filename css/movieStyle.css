@@ -1,8 +1,30 @@
 body {
-    background-image: url(/images/background/coming-soon.jpg);
+    /* background-image: url(/images/background/coming-soon.jpg); */
+    font-family: dosis;
 }
 
+h1, h2, h3, h4 {
+    font-family: dosis;
+}
+
+.header {
+    border: 0px;
+    margin-bottom: 8px;
+    box-shadow: none;
+}
 .theaterContainer {
     margin: auto;
     background-color: white;
+}
+
+.highlights {
+    background-color: var(--night);
+    color: white;
+    padding: 8px;
+    
+}
+
+.movieContainer {
+   display: flex;
+   justify-content: space-around;
 }
