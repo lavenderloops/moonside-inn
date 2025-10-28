@@ -12,9 +12,13 @@
 }
 
 body {
-    background-image: url(/images/background/brick.png);
+    /* background-image: url(/images/background/brick.png); */
     background-color: var(--umbra);
     font-family: fairfax;
+}
+
+.wrapper {
+    background-color: #0b1013;
 }
 
 body#inner {
