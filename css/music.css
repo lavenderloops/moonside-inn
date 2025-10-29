@@ -1,0 +1,94 @@
+
+:root {
+    --scrub: #07121a;
+    --night: #0b121d;
+    --terminal: #74ecfc;
+    --alert: #1e7bc7;
+    --void: #040301;
+    --old-pc: #c9dad9;
+   
+    
+    
+}
+
+body {
+    background-color: grey;
+    font-family: fairfax;
+}
+
+h2 {
+    font-size: 14px;
+}
+.wrapper {
+    width: 800px;
+    margin: auto;
+}
+.window {
+    border-radius: 6px;
+    background-color: var(--scrub);
+    border: 1px inset var(--night);
+    width: 100%;
+}
+
+.title-bar {
+    display: flex;
+    border-radius: 4px;
+    background: var(--night);
+    border: 2px outset var(--scrub);
+    align-items: center;
+    justify-content: center;
+}
+
+.title-bar-text {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 4px;
+    letter-spacing: 2px;
+    color: var(--old-pc);
+}
+
+.double-line {
+    border-top: 6px double var(--alert);
+    width: 100%;
+    margin: 8px;
+}
+
+.window-body {
+    border: 2px inset var(--night);
+    padding-left: 4px;
+    margin: 4px;
+    background-color: var(--void);
+    color: var(--terminal)
+}
+
+.split-window {
+    display: flex;
+    gap: 1px;
+}
+
+.playlist-table {
+    
+    width: 100%;
+}
+
+.playlist-table th {
+    text-align: left;
+    border-bottom: 1px dashed var(--scrub);
+    background: linear-gradient(-12deg, rgba(0, 0, 0, 0.027) 0%, rgba(3, 18, 51, 0.384) 100%);
+    letter-spacing: 1px;
+}
+
+.playlist-table tr {
+    background-color: black;
+}
+
+.playlist-table td:hover {
+    background-color: #459CE3;
+    color: #000000;
+}
+
+.window a {
+    color: var(--terminal);
+    font-size: 14px;
+    margin: auto;
+}
