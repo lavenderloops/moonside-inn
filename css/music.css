@@ -169,3 +169,34 @@ h2 {
 .album a {
     color: var(--terminal);
 }
+
+.playlist {
+    color: var(--terminal);
+}
+
+.playlist a {
+    color: var(--terminal)
+}
+
+.playlist table {
+    margin-top: 8px;
+    width: 100%;
+    padding: 2px;
+}
+
+.playlist th {
+    text-align: left;
+}
+
+.playlist tr:nth-child(even) {
+    background-color: rgba(4, 6, 10, 0.726)
+}
+
+.playlist-header {
+    display: flex;
+    gap: 12px;
+}
+
+.playlist-header p {
+    margin-bottom: 4px;
+}

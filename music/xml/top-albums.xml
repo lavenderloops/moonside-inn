@@ -1,0 +1,313 @@
+<!-- <div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td></td>
+        </tr>
+    </table>
+</div> -->
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/twelve-spells.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>esperanza spalding</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>12 little spells</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>thang</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/solstice.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>fleet foxes</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>a very lonely solstice</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>i'm not my season (my first tattoo references this song!)</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/tranqilitybase.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>arctic monkeys</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>tranquility base hotel and casino</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>batphone</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/ctrl.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>sza</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>ctrl</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>normal girl</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/empath.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>willow</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>empathogen</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>pain for fun</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/fleet.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>fleet foxes</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>fleet foxes</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>meadowlarks</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/igor.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>tyler, the creator</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>igor</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>gone gone/thank you</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/ratatat.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>ratatat</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>ratatat</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>cherry</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/mother.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>cleo sol</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>mother</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>build me up</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/romantico.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>800 cherries</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>romantico</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>la pa ti ta</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/ruby.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>jennie</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>ruby</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>extraL</td>
+        </tr>
+    </table>
+</div>
+
+<div class="album">
+    <div class="cover">
+        <img src="/music/album-covers/stereo.png" alt="">
+    </div>
+    <table class="album-details">
+        <tr>
+            <th>artist:</th>
+            <td>cibo matto</td>
+        </tr>
+        <tr>
+            <th>album:</th>
+            <td>stero type a</td>
+        </tr>
+        <tr>
+            <th>year:</th>
+            <td>2006</td>
+        </tr>
+        <tr>
+            <th>fave track:</th>
+            <td>moonchild</td>
+        </tr>
+    </table>
+</div>
+
+

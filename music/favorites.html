@@ -9,7 +9,20 @@
     <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body style="background: none;">
-    
-
+    <div id="albums">
+    </div>
+        <script>
+            function loadAlbums() {
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function () {
+                    document.getElementById("albums").innerHTML =
+                    this.responseText;
+                }
+                xhttp.open("GET", "xml/top-albums.xml");
+                xhttp.send();
+            }
+            loadAlbums()
+        </script>
+    </body>
 </body>
 </html>
