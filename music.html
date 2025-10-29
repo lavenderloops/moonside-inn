@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>moonside inn - tape deck</title>
-        <link rel="icon" type="image/x-icon" href="/images/icons/favicon.gif">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/musicStyle.css" rel="stylesheet" type="text/css" media="all">
-
+        <title>MUSIC</title>
+        <!-- <link rel="stylesheet" href="/css/style.css"> -->
+        <link rel="stylesheet" href="/css/music.css">
+        <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="stylesheet" href="/css/crt.css">
     </head>
 
-    <body>
-        <div class="outerflex">
-            <h1>tape deck</h1>
-            <p>choose a tape!</p>
+    <body class="crt">
+        <div class="wrapper">
+            <div class="window">
+                <div class="title-bar" style="padding: 3px;">
+                    <div class="double-line"></div>
+                    <div class="title-bar-text" style="text-align: center; white-space: nowrap;">MUSIC PLAYER</div>
+                    <div class="double-line"></div>
+                </div>
+                <div class="window-body">
+                    <img src="/images/music/waveform.png" alt="" style="width: 100%;">
+                </div>
+                <div class="title-bar" style="padding: 3px;">
+                    <div class="double-line"></div>
+                    <div class="title-bar-text">BROWSER</div>
+                    <div class="double-line"></div>
+                </div>
 
-            <div class="scroll-container">
-                <a href="tapeDecks/frosty-breaks.html"><img src="images/music/frostyBreaks.png"></a>
-                <a href="tapeDecks/secret-mission.html"><img src="images/music/missionSecret.png"></a>
-            </div>
+                <div class="split-window">
+                    <div class="window">
+                        <div class="window-body">
+                            <table class="playlist-table">
+                                <tr>
+                                    <th>library</th>
+                                </tr>
+                                <tr>
+                                    <td id="week"><a href="music/week.html" target="musicPlayer">album of the week</a></td>
+                                </tr>
+                                <tr>
+                                    <td id="favorites"><a href="music/favorites.html" target="musicPlayer">favorites</a></td>
+                                </tr>
+                                <tr>
+                                    <th>playlists</th>
+                                </tr>
+                                <tr>
+                                    <td>frosty breaks</td>
+                                </tr>
+                                <tr>
+                                    <td>dream tapes</td>
+                                </tr>
+                                <tr>
+                                    <td>mission secrete</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="window-body" style="width: 70%;">
+                        <iframe src="music/week.html" name="musicPlayer" frameborder="0" height="500px" width="100%;"></iframe>
+                    </div>
+                </div>
 
-            <div class="tab">
-                <a href="index.html">return home?</a>
+            <div class="window">
+                <div class="window-body" style="margin-top: 8px;">
+                    <a href="/index.html">return home</a>
+                </div>
             </div>
         </div>
-        <style></body>
     </body>
 </html>

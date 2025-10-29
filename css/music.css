@@ -8,6 +8,7 @@
     --old-pc: #c9dad9;
 }
 
+
 body {
     background-image: url(/images/background/stars11.png);
     font-family: fairfax;
@@ -155,4 +156,16 @@ h2 {
 .album-details th {
     text-align: left;
     white-space: nowrap;
+}
+
+.comments p {
+    margin: 4px;
+}
+
+.comments small {
+    margin-left: 4px;
+}
+
+.album a {
+    color: var(--terminal);
 }
