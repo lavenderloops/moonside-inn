@@ -2,7 +2,7 @@
 :root {
     --scrub: #07121a;
     --night: #0b121d;
-    --terminal: #74ecfc;
+    --terminal: #90f2ff;
     --alert: #1e7bc7;
     --void: #040301;
     --old-pc: #c9dad9;
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: grey;
+    background-image: url(/images/background/stars11.png);
     font-family: fairfax;
 }
 
@@ -22,6 +22,8 @@ h2 {
 .wrapper {
     width: 800px;
     margin: auto;
+    border-radius: 6px;
+    
 }
 .window {
     border-radius: 6px;
@@ -58,7 +60,8 @@ h2 {
     padding-left: 4px;
     margin: 4px;
     background-color: var(--void);
-    color: var(--terminal)
+    color: var(--terminal);
+    height: 93%;
 }
 
 .split-window {
@@ -66,8 +69,11 @@ h2 {
     gap: 1px;
 }
 
+.split-window > .window {
+    width: 40%;
+}
+
 .playlist-table {
-    
     width: 100%;
 }
 
@@ -91,4 +97,50 @@ h2 {
     color: var(--terminal);
     font-size: 14px;
     margin: auto;
+}
+
+.playlist-table a {
+    color: var(--terminal);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.playlist-table a:hover {
+    color: black;
+}
+/* album block */
+
+.album {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    gap: 8px;
+    border-bottom: 1px solid var(--alert);
+    padding: 6px;
+
+    color: var(--terminal);
+    font-size: 14px;;
+}
+
+.cover {
+    min-width: 40%;
+    max-width: 40%;
+    margin-right: 4px;
+}
+
+.cover img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.album table {
+    width: fit-content;
+    font-size: 14px;
+}
+
+.album-details th {
+    text-align: left;
+    white-space: nowrap;
 }
