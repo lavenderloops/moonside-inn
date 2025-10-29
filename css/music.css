@@ -200,3 +200,7 @@ h2 {
 .playlist-header p {
     margin-bottom: 4px;
 }
+
+.tracklist {
+    color: var(--terminal)
+}
