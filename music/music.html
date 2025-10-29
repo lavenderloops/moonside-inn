@@ -13,7 +13,7 @@
         <div class="window">
             <div class="title-bar" style="padding: 3px;">
                 <div class="double-line"></div>
-                <div class="title-bar-text" style="font-size: 24px;">music</div>
+                <div class="title-bar-text" style="text-align: center; white-space: nowrap;">MUSIC PLAYER</div>
                 <div class="double-line"></div>
             </div>
             <div class="window-body">
@@ -21,26 +21,26 @@
             </div>
             <div class="title-bar" style="padding: 3px;">
                 <div class="double-line"></div>
-                <div class="title-bar-text">media</div>
+                <div class="title-bar-text">BROWSER</div>
                 <div class="double-line"></div>
             </div>
             <div class="split-window">
                 <div class="window">
-                    <div class="title-bar">
+                    <!-- <div class="title-bar">
                         <div class="double-line"></div>
                         <div class="title-bar-text">playlists</div>
                         <div class="double-line"></div>
-                    </div>
+                    </div> -->
                     <div class="window-body">
                         <table class="playlist-table">
                             <tr>
                                 <th>library</th>
                             </tr>
                             <tr>
-                                <td><a href="week.html" target="musicPlayer">album of the week</a></td>
+                                <td id="week"><a href="week.html" target="musicPlayer">album of the week</a></td>
                             </tr>
                             <tr>
-                                <td><a href="favorites.html" target="musicPlayer">favorites</a></td>
+                                <td id="favorites"><a href="favorites.html" target="musicPlayer">favorites</a></td>
                             </tr>
                             <tr>
                                 <th>playlists</th>
@@ -66,8 +66,7 @@
             <a href="/index.html">return home</a>
         </div>
     </div>
-    </div>
-    </div>
-
+</div>
+<script src="scripts/musicScript.js"></script>
 </body>
 </html>

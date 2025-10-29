@@ -6,9 +6,6 @@
     --alert: #1e7bc7;
     --void: #040301;
     --old-pc: #c9dad9;
-   
-    
-    
 }
 
 body {
@@ -19,6 +16,20 @@ body {
 h2 {
     font-size: 14px;
 }
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrub);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--alert);
+    border: 2px outset var(--night);
+}
+
 .wrapper {
     width: 800px;
     margin: auto;
@@ -30,6 +41,7 @@ h2 {
     background-color: var(--scrub);
     border: 1px inset var(--night);
     width: 100%;
+    
 }
 
 .title-bar {
@@ -61,7 +73,7 @@ h2 {
     margin: 4px;
     background-color: var(--void);
     color: var(--terminal);
-    height: 93%;
+    height: 98%;
 }
 
 .split-window {
