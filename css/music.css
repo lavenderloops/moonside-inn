@@ -37,12 +37,12 @@ h2 {
     border-radius: 6px;
     
 }
+
 .window {
     border-radius: 6px;
     background-color: var(--scrub);
     border: 1px inset var(--night);
     width: 100%;
-    
 }
 
 .title-bar {
@@ -75,6 +75,10 @@ h2 {
     background-color: var(--void);
     color: var(--terminal);
     height: 98%;
+}
+
+.window-body.flex {
+    display: flex;
 }
 
 .split-window {
@@ -204,3 +208,76 @@ h2 {
 .tracklist {
     color: var(--terminal)
 }
+
+/* marquee */
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.marquee p {
+    margin: 0;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-right 2s linear infinite;
+    -webkit-animation: scroll-right 2s linear infinite;
+    animation: scroll-right 20s linear infinite;
+}
+            
+@-moz-keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+    }
+}
+            
+@-webkit-keyframes scroll-right {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}  
+
+.music-controls {
+    width: 100%;
+    margin: auto;
+}
+
+.music-controls img {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.music-controls:hover img {
+    background-color: #000000;
+    border: 1px solid #c9dad9;
+}
+
+.pause {
+    display: none;
+}
+
+

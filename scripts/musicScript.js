@@ -1,30 +1,22 @@
-// var week = document.getElementById("week")
-
-// week.addEventListener("mouseover", function () {
-//     week.style.backgroundColor = "var(--alert)";
-//     week.style.color = "black";
-// })
-
-// week.addEventListener("mouseout", function () {
-//     week.style.backgroundColor = "";
-//     week.style.color = "";
-// })
-
 document.addEventListener("DOMContentLoaded", function () {
-    // Select all <td> elements inside the playlist table
-    const cells = document.querySelectorAll(".playlist-table td");
+    const playButton = document.querySelector("#moonplayer .play");
+    const pauseButton = document.querySelector("#moonplayer .pause");
+    const audio = document.getElementById("song");
 
-    cells.forEach(cell => {
-        // Hover effect on cell
-        cell.addEventListener("mouseover", function () {
-            this.style.backgroundColor = "var(--alert)";
-            this.style.color = "black";
-            
-        });
+    audio.volume = 0.6;
 
-        cell.addEventListener("mouseout", function () {
-            this.style.backgroundColor = "";
-            this.style.color = "";
-        });
+    // Play button
+    playButton.addEventListener("click", function () {
+        audio.play();
+        playButton.style.display = "none";
+        pauseButton.style.display = "block";
+    });
+
+    // Pause button
+    pauseButton.addEventListener("click", function () {
+        audio.pause();
+        pauseButton.style.display = "none";
+        playButton.style.display = "block";
     });
 });
+

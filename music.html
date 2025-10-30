@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MUSIC</title>
+        <title>moonside inn - music</title>
         <!-- <link rel="stylesheet" href="/css/style.css"> -->
         <link rel="icon" type="image/x-icon" href="/images/icons/favicon.gif">
         <link rel="stylesheet" href="/css/music.css">
@@ -22,6 +22,21 @@
                 <div class="window-body">
                     <img src="/images/music/waveform.png" alt="" style="width: 100%;">
                 </div>
+                <div class="window-body flex">
+                    <div>
+                        <div id="moonplayer">
+                            <div class="music-controls">
+                                <div class="play"><img src="/images/icons/play-n.png" alt=""></div>
+                                <div class="pause"><img src="/images/icons/pause-n.png" alt=""></div>
+                            </div>
+                            <audio id="song" src="https://files.catbox.moe/8cbeoe.flac" type="audio/flac"></audio>
+                        </div>
+                    </div>
+                        <div class="marquee">
+                            <p>now playing: butterfly2  - amaja</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="title-bar" style="padding: 3px;">
                     <div class="double-line"></div>
                     <div class="title-bar-text">BROWSER</div>
@@ -30,7 +45,7 @@
 
                 <div class="split-window">
                     <div class="window">
-                        <div class="window-body">
+                        <div class="window-body"  style="background-color: black;">
                             <table class="playlist-table">
                                 <tr>
                                     <th>library</th>
@@ -61,11 +76,12 @@
                     </div>
                 </div>
 
-            <div class="window">
-                <div class="window-body" style="margin-top: 8px;">
-                    <a href="/index.html">return home</a>
+                <div class="window">
+                    <div class="window-body" style="margin-top: 8px;">
+                        <a href="/index.html">return home</a>
                 </div>
             </div>
         </div>
+        <script src="/scripts/musicScript.js"></script>
     </body>
 </html>
