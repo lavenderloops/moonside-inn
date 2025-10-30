@@ -4,13 +4,17 @@
     --steel-blue: #4b639b;
     --midnight: #3a527f;
     --starlight: #fac372;
-    --twilight: #5f3c7f;
+    --twilight: #184a72;
     --sunset: #f09c83;
     --moonlight: #cdd9ee;
     --gris: #7f8796;
     --umbra: #1b2124;
     --shade: #162f40;
-    --night: #16191d;
+    --night: #11131B;
+    --terminal: #90f2ff;
+    --alert: #1e7bc7;
+    --void: #010104;
+    --old-pc: #c9dad9;
 }
 
 /*  */
@@ -22,7 +26,7 @@ html {
 }
 
 body {
-    background-image: url(/../images/background/diamond-bg.png);
+    background-image: url(/images/background/stars11.png);
 }
 
 button {
@@ -33,9 +37,10 @@ button {
 h1,
 h2,
 h3 {
-    font-family: heal-web;
+    font-family: kulture;
     text-align: center;
     line-height: 4px;
+    letter-spacing: 2px;
 }
 
 a {
@@ -169,13 +174,12 @@ ul {
     background-color: var(--night);
     border: 1px ridge var(--twilight);
     border-radius: 4px;
-   
     padding: 8px 16px;
 }
 
 .contentFlex {
     display: flex;
-    gap:8px;
+    gap: 8px;
     width: 100%;
 }
 
@@ -385,4 +389,65 @@ table.logbook td a:hover {
 .newIcon:hover {
     border: 1px ridge hotpink;
     width: 26%;
+}
+
+.window {
+    border-radius: 6px;
+    background-color: var(--scrub);
+    border: 1px inset var(--night);
+    width: 100%;
+}
+
+.title-bar {
+    display: flex;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.253);
+    /* border: 2px outset var(--scrub); */
+    align-items: center;
+    justify-content: center;
+}
+
+.title-bar-text {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 4px;
+    letter-spacing: 2px;
+    color: var(--old-pc);
+}
+
+/* .camera-roll {
+    
+} */
+.camera-roll img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.camera-controls {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentBody.new {
+    border-bottom: 1px dotted var(--gris);
+    margin-top: 8px;
+    text-align: center;
+}
+
+.contentBox.scroll {
+    overflow-y: auto;
+    max-height: 700px;
+    max-width: 40%;
+}
+
+.currentBody.new img {
+    width: 100%; 
+    border-radius: 4px; 
+    border: 1px ridge black;
+}
+
+.back:hover, .next:hover {
+    text-decoration: underline;
 }

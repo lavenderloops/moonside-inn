@@ -1,10 +1,10 @@
 
 :root {
-    --scrub: #07121a;
+    --scrub: #000000;
     --night: #0b121d;
     --terminal: #90f2ff;
     --alert: #1e7bc7;
-    --void: #040301;
+    --void: #010104;
     --old-pc: #c9dad9;
 }
 
@@ -35,7 +35,7 @@ h2 {
     width: 800px;
     margin: auto;
     border-radius: 6px;
-    
+    border: 1px solid var(--alert);
 }
 
 .window {
@@ -49,7 +49,7 @@ h2 {
     display: flex;
     border-radius: 4px;
     background: var(--night);
-    border: 2px outset var(--scrub);
+    /* border: 2px outset var(--scrub); */
     align-items: center;
     justify-content: center;
 }
