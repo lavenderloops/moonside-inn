@@ -10,7 +10,7 @@ a:hover {
     color: var(--soft-blue)
 }
 
-.container {
+.container.none {
     max-width: 800px;
     height: fit-content;
     margin: auto;
@@ -18,12 +18,8 @@ a:hover {
     flex-direction: column;
     padding: 16px;
     gap: 8px;
-    
-    
     border-radius: 4px;
-
-    background-image: url(/images/background/starGrid.png);
-    box-shadow: 4px 4px #00000071;
+    background-image: none;
 }
 
 
@@ -86,7 +82,7 @@ a:hover {
 
 .sidebar > .menuHeader {
     color: var(--night);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     background-color: transparent;
     border: 0px;
@@ -95,7 +91,7 @@ a:hover {
 }
 
 .recipeSelect {
-    background-color: #ffd392;
+    background-color: var(--soft-blue);
     padding: 2px;
     text-align: left;
     font-family: dosis;
@@ -152,7 +148,6 @@ a:hover {
 
 .topCard {
     display: flex;
-    gap: 12px;
 }
 
 .recipeImg {
@@ -168,24 +163,15 @@ a:hover {
 }
 
 .right {
-    
     width: 100%;
-
     display: flex;
     flex-direction: column;
     gap: 4px;
-
-    padding: 4px;
-    
-}
-
-.right > div {
-    padding: 4px;
-    
 }
 
 .details {
     align-items: center;
+    padding: 8px;
 }
 
 .details > div {
@@ -254,7 +240,7 @@ a:hover {
 
 .cardBody {
     max-width: 100%;
-    
+    padding: 12px 0;
 }
 
 .cardBody table {
@@ -268,4 +254,50 @@ a:hover {
 
 .cardBody table th {
     text-align: left;
+}
+
+.properties {
+    background-color: rgba(167, 174, 235, 0.616);
+    padding: 4px;
+    width: 40%;
+    border-right: 1px solid var(--midnight);
+}
+
+.properties table th {
+    text-align: left;
+    padding: 0 14px 0 0;
+    vertical-align: top;
+}
+
+.ingredients {
+    padding: 8px;
+}
+
+.ingredients table {
+    width: 100%;
+}
+
+.ingredients td {
+    border-right: 1px solid var(--gris);
+    border-bottom: 1px solid var(--gris);
+}
+
+.cardBody li {
+    border-bottom: 1px dashed var(--gris);
+}
+
+.divider.recipe {
+    border-bottom: 1px dashed var(--gris);
+    
+}
+
+.notes {
+    margin: 8px;
+    padding: 0 4px;
+    border: 1px dashed #d73606;
+    background-color: rgba(240, 248, 255, 0.432);
+}
+
+.notes p {
+    margin-bottom: 0;
 }

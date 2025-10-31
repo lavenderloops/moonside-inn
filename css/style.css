@@ -70,6 +70,10 @@ ul {
         flex-direction: column;
     }
 
+    .contentBox.scroll {
+        min-width: 100%;
+    }
+
     .navigation {
         flex-wrap: wrap;
     }

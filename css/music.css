@@ -281,3 +281,19 @@ h2 {
 }
 
 
+@media (max-width: 680px) {
+    .wrapper {
+        width: 100%;
+    }
+    .split-window {
+        flex-direction: column;
+    }
+
+    .split-window > .window {
+        width: 100%;
+    }
+
+    .split-window > .window-body {
+        min-width: 100%;
+    }
+}

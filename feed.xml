@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>moonside inn</title>
+    <description>moonside inn</description>
+    <link>https://moonside-inn.neocities.org/</link>
+    <lastBuildDate>
+        Thu, 30 Oct 2025 18:23:36 +0000
+    </lastBuildDate>
+    <ttl>20000</ttl>
+
+<item>
+    <title>moonside player</title>
+    <description>
+        an update to my music page featuring album of the week, my top albums, and a few playlists/mixes i've made!
+    </description>
+    <link>https://moonside-inn.neocities.org/music</link>
+    <pubDate>
+        Thu, 30 Oct 2025 18:23:36 +0000
+    </pubDate>
+</item>
+</channel>
+</rss>
