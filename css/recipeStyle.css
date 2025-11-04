@@ -277,8 +277,8 @@ a:hover {
 }
 
 .ingredients td {
-    border-right: 1px solid var(--gris);
     border-bottom: 1px solid var(--gris);
+    width: 50%;
 }
 
 .cardBody li {
@@ -299,4 +299,5 @@ a:hover {
 
 .notes p {
     margin-bottom: 0;
+    text-align: center;
 }
