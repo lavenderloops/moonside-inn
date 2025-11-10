@@ -1,0 +1,84 @@
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 12px;
+}
+
+ul {
+    list-style-image: none;
+    margin-left: 8px;
+}
+
+/* li.movie {
+    list-style-image: url(/images/icons/film.png) ;
+} */
+
+li.tv,.movie {
+    list-style-image: url(/images/icons/movies.png);
+}
+
+li.book {
+    list-style-image: url(/images/icons/book.png);
+}
+
+li.music {
+    list-style-image: url(/images/icons/musict.png);
+}
+
+li.game {
+    list-style-image: url(/images/icons/games.png);
+}
+
+.bubble {
+    background-color: var(--old-pc);
+    width: max-content;
+    padding: 1px 24px;
+    border-radius: 4px;
+    color: black;
+}
+
+.camera-roll {
+    width: 50%;
+    border: 1px solid var(--old-pc);
+    border-radius: 2px;
+    margin: 8px;
+}
+
+.camera-roll img {
+    border-radius: 0;
+    width: 100%;
+    display: block;
+}
+
+li details {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    overflow: auto;
+
+    &[open] {
+        display: block;
+        background-color: var(--night);
+        padding: 4px;
+    }
+
+    summary {
+        list-style-type: "+";
+    }
+
+    &[open]>summary {
+        list-style-type: "-";
+        
+    }
+
+}
+
+.window a {
+    color: var(--starlight);
+    margin: auto;
+}

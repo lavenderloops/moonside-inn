@@ -9,6 +9,12 @@
     --gris: #7f8796;
     --umbra: #1b2124;
     --shade: #162f40;
+
+    --night: #11131B;
+    --terminal: #90f2ff;
+    --alert: #1e7bc7;
+    --void: #010104;
+    --old-pc: #c9dad9;
 }
 
 body {
@@ -39,45 +45,59 @@ body {
     box-shadow: 4px 4px #000511a4;
 }
 
-.outerflex > .control {
-    background-color: var(--umbra);
+.window {
+    margin: auto;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--night);
+    box-shadow: 4px 4px #000511a4;
+    border: 2px ridge var(--alert);
+}
+
+.innerWindow {
+    border-left: 1px inset #7f879670;
+    border-right: 1px solid #7f879670;
+    border-radius: 4px;
+}
+
+.control {
+    background-color: var(--night);
     width: 100%;
     height: 24px;
     display: flex;
     flex-direction: row;
     border-radius: 4px 4px 0px 0px;
-    padding: 2px 0px 2px 0px;
-    border-left: 1px inset #7f879670;
-    border-right: 1px solid #7f879670;
+    /* border-left: 1px inset #7f879670;
+    border-right: 1px solid #7f879670; */
 }
 
 .circle {
-    background-color: var(--sunset);
+    background-color: var(--starlight);
     border-radius: 100px;
     border: 1px solid #262e3b;
     width: 12px;
     height: 12px;
     position: fixed;
-   
     margin: 0px 0px 0px 360px;
     
 }
 
 .control > div {
     color: white;
-   
     margin: 6px 8px 6px 6px ;
     font-size: 12px;
     text-align: left;
     
 }
 
-.outerflex > .tab {
+.tab {
     display: flex;
     width: 100%;
     background-color: #16191d;
     border-bottom: 1px inset #7f87962c;
-    border-right: 1px solid #7f879670;
 }
 
 .tab > div {
@@ -118,4 +138,33 @@ body {
     color: var(--moonlight);
     overflow-y: scroll;
 } 
+
+.windowBody {
+    margin: auto;
+    padding: 8px;
+    width: 500px;
+    border-bottom: 1px inset #7f879670;
+
+    color: var(--moonlight);
+}
+
+
+.tab>div {
+    padding: 8px 12px 4px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--terminal);
+    background-color: #161a1d;
+
+    border-right: 1px dotted #7f87964b;
+    border-left: 1px inset #7f879670;
+}
+
+.windowBody p {
+    font-size: 12px;
+    margin: 0;
+}
+.windowBody b {
+    color: var(--terminal);
+}
 

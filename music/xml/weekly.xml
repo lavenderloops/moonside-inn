@@ -5,7 +5,6 @@
         <div>
             <div class="comments">
                 <p>yyww. <b>mmm dd</b></p>
-                <small>bandcamp</small>
                 <p>Comments will go here if i write a lot what happens if i keep on writing for ever and ever and ever and ever</p>
             </div>
 
@@ -24,7 +23,7 @@
                 </tr>
                 <tr>
                     <th>fave track:</th>
-                    <td><a href="" target="_blank" rel="noopener noreferrer"></a></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
@@ -32,12 +31,42 @@
 
 <div class="album">
         <div class="cover">
+            <img src="album-covers/origens.png" alt="">
+        </div>
+        <div>
+            <div class="comments">
+                <p>2546. <b>nov 9</b></p>
+                <p>reminds me a bit of stevie wonder x joao gilberto</p>
+            </div>
+
+            <table class="album-details">
+                <tr>
+                    <th>artist:</th>
+                    <td>filo machado</td>
+                </tr>
+                <tr>
+                    <th>album:</th>
+                    <td>origens</td>
+                </tr>
+                <tr>
+                    <th>year:</th>
+                    <td>1983</td>
+                </tr>
+                <tr>
+                    <th>fave track:</th>
+                    <td>blue note</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+<div class="album">
+        <div class="cover">
             <img src="album-covers/diamond-day.png" alt="">
         </div>
         <div>
             <div class="comments">
                 <p>2545. <b>nov. 3</b></p>
-                <small><a href="https://amaja.bandcamp.com/album/c0mpu73r-d347h" target="_blank">bandcamp</a></small>
                 <p>such a soft, gentle album! i've been returning to a lot of things from my days in grad school this week, which was the first time I heard this album. then and now, window by the bay is a perfect song to daydream to</p>
             </div>
 
@@ -56,7 +85,7 @@
                 </tr>
                 <tr>
                     <th>fave track:</th>
-                    <td><a href="https://amaja.bandcamp.com/track/r34dy" target="_blank" rel="noopener noreferrer">window over the bay</a></td>
+                    <td>window over the bay</td>
                 </tr>
             </table>
         </div>
