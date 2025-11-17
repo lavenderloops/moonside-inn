@@ -69,6 +69,12 @@ li details {
 
     summary {
         list-style-type: "+";
+        
+    }
+
+    summary:hover {
+        cursor: url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), url(http://media.tumblr.com/ba8a578fcc51cd37abc9769ec19139f6/tumblr_inline_mki84fv6p41qz4rgp.png), auto;
+        color: #8aef50;
     }
 
     &[open]>summary {
@@ -79,6 +85,6 @@ li details {
 }
 
 .window a {
-    color: var(--starlight);
+    color: #a4ff6f;
     margin: auto;
 }

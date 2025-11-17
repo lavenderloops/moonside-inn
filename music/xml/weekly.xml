@@ -30,6 +30,37 @@
     </div> -->
 
 <div class="album">
+    <div class="cover">
+        <img src="album-covers/mind-palace.png" alt="">
+    </div>
+    <div>
+        <div class="comments">
+            <p>2547. <b>nov 16</b></p>
+            <p>lots of comfort listening this week, this is one i keep coming back to when i'm feeling a little down</p>
+        </div>
+
+        <table class="album-details">
+            <tr>
+                <th>artist:</th>
+                <td>@</td>
+            </tr>
+            <tr>
+                <th>album:</th>
+                <td>mind palace music</td>
+            </tr>
+            <tr>
+                <th>year:</th>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <th>fave track:</th>
+                <td>boxwood lane</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="album">
         <div class="cover">
             <img src="album-covers/origens.png" alt="">
         </div>

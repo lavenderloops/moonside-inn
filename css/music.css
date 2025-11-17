@@ -99,6 +99,8 @@ h2 {
     border-bottom: 1px dashed var(--scrub);
     background: linear-gradient(-12deg, rgba(0, 0, 0, 0.027) 0%, rgba(3, 18, 51, 0.384) 100%);
     letter-spacing: 1px;
+    padding: 4px;
+    color: var(--old-pc);
 }
 
 .playlist-table tr {
