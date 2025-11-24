@@ -7,19 +7,20 @@
     --old-pc: #c9dad9;
 }
 
+
 .wrapper {
-    width: 30%;
-    margin: 12px auto;
+    margin: 8px auto;
     border-radius: 6px;
     border: 1px solid var(--alert);
     font-family: fairfax;
+    width: 80%;
 }
+
 
 .window {
     border-radius: 6px;
     background-color: var(--scrub);
     margin: auto;
-    width: 100%;
 }
 
 .window p, a, li {
@@ -76,4 +77,14 @@
 
 .double > div {
     width: 50%;
+}
+
+.flex {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+}
+
+.flex > .main {
+    max-width: 80%;
 }

@@ -31,6 +31,37 @@
 
 <div class="album">
     <div class="cover">
+        <img src="album-covers/stereo.png" alt="">
+    </div>
+    <div>
+        <div class="comments">
+            <p>2548w. <b>nov 23</b></p>
+            <p>one of the bands i discovered through buffy hehe, i've been wanting to do a rewatch just for the music</p>
+        </div>
+
+        <table class="album-details">
+            <tr>
+                <th>artist:</th>
+                <td>cibo matto</td>
+            </tr>
+            <tr>
+                <th>album:</th>
+                <td>stereo type a</td>
+            </tr>
+            <tr>
+                <th>year:</th>
+                <td>2001</td>
+            </tr>
+            <tr>
+                <th>fave track:</th>
+                <td>moonchild</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="album">
+    <div class="cover">
         <img src="album-covers/mind-palace.png" alt="">
     </div>
     <div>

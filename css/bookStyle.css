@@ -279,3 +279,15 @@ ul {
     border: 1px solid var(--gris);
     border-radius: 4px;
 }
+
+#spoiler {
+    color: var(--soft-blue);
+    background-color: var(--soft-blue);
+    padding: 2px;
+    border-bottom: 1px solid var(--midnight);
+}
+
+#spoiler:hover {
+    color: var(--night);
+    background-color: transparent;
+}
