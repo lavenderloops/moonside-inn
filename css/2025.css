@@ -1,0 +1,13 @@
+body {
+    background-color: var(--night);
+    background-image: none;
+}
+
+.mainContainer {
+    background-image: none;
+    background-color: var(--umbra);
+}
+
+.innerContainer {
+    background-image: none;
+}

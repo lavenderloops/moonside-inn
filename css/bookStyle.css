@@ -10,7 +10,7 @@ body {
 a {
     font-family: boska;
     font-weight: bold;
-    color: var(--night);
+    color: var(--old-pc);
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ h1 {
 
 .comments {
     margin: 8px 36px 0px 8px;
-    text-align: justify;
+    text-align: left;
     font-family: switzer;
     font-weight: 100;
     font-size: 13px;
@@ -290,4 +290,98 @@ ul {
 #spoiler:hover {
     color: var(--night);
     background-color: transparent;
+}
+
+.wrapped {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 8px;
+    gap: 4px;
+    font-family: switzer;
+    color: white;
+}
+
+.cell {
+    padding: 6px;
+    border: 1px dashed var(--gris);
+}
+
+.cell > .upper {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.cell p {
+    line-height: 16px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+
+.cell small {
+    font-weight: 100; 
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden; /* Hidden by default */
+  width: 130px;
+  background-color: var(--night);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  padding: 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.lower span {
+    color: var(--night);
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+    padding: 12px;
+    align-items: center;
+}
+
+.notes {
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    align-self:self-start;
+
+    height: 100%;
+
+    color: white;
+    font-family: switzer;
+}
+
+ul {
+    padding-left: 6px;
+}
+
+li {
+    list-style-image: none;
+}
+
+.space {
+    height: 80px;
 }
